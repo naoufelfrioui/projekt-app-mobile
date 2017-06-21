@@ -57,19 +57,11 @@ namespace Event.Models
     {
         public string id { get; set; }
         public string title { get; set; }
-        public string title_short { get; set; }
-        public string messelink { get; set; }
-        public string date_start { get; set; }
-        public string date_end { get; set; }
-        public string date_startiso8601 { get; set; }
-        public string date_endiso8601 { get; set; }
-        public string date_startut { get; set; }
-        public string date_endut { get; set; }
-        public Venues venues { get; set; }
-        public string messe_city { get; set; }
-        public MesseState messe_state { get; set; }
-        public string messe_country { get; set; }
-        public string messe_typ { get; set; }
+        public List<double> location { get; set; }
+        public string body { get; set; }
+        public string url { get; set; }
+        public string imageUrl { get; set; }
+        public string publishedAt { get; set; }
     }
     public class Partys
     {

@@ -1,1 +1,1 @@
-C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Event.csproj;x86
+C:\Users\Frioui\Desktop\Event\Event\Event.csproj;x86

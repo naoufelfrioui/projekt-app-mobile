@@ -54,18 +54,21 @@
                              RelativePanel.AlignLeftWithPanel="True"
                              RelativePanel.AlignRightWithPanel="True"
                              RelativePanel.AlignTopWithPanel="True"
-                             Text="Location" />
+                             Text="" />
 
         <!--  content  -->
 
 
-        <Grid x:Name="LayoutRoot" HorizontalAlignment="Center"  Width="379" Margin="5,-26,-24,-51.333" >
-            <StackPanel Orientation="Vertical" Margin="-3,27,-13,-23">
-                <Maps:MapControl x:Name="maps" Height="637" Margin="3,0,23,0"/>
-
+        <Grid x:Name="LayoutRoot" HorizontalAlignment="Center"  Width="533" Margin="0,53,-173,-36" >
+            <StackPanel >
+                <Maps:MapControl x:Name="maps" Height="364" Margin="3,0,-54,0"/>
+                <TextBlock   x:Name="result"  Text="{x:Bind ViewModel.Value, Mode=OneWay, FallbackValue=DesigntimeValue}"   VerticalAlignment="Center" Height="116" Margin="0,50,139,0" />
             </StackPanel>
         </Grid>
+       
 
     </RelativePanel>
+
+
 </Page>
 

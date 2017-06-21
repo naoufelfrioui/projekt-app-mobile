@@ -21,9 +21,9 @@ namespace Event.Models
 
         public void ArabicDictionary()
         {
-            Arabic.Add("menu1", "قائمة عادلة");
-            Arabic.Add("menu2", "أحداث عادلة");
-            Arabic.Add("menu3", "بحث");
+            Arabic.Add("menu1", "معرض برلين");
+            Arabic.Add("menu2", "معرض  براندنبورغ");
+            Arabic.Add("menu3", "الحفلات");
             Arabic.Add("menu4", "تحميل القائمة");
             Arabic.Add("menu5", "اتصال");
             Arabic.Add("SecondaryButton1", "ملف تعريفي للمستخدم");
@@ -61,9 +61,9 @@ namespace Event.Models
 
         public void DeutschDictionary()
         {
-            English.Add("menu1", "Messe Liste");
-            English.Add("menu2", "Messe Events ");
-            English.Add("menu3", "Search ");
+            English.Add("menu1", "Messe Berlin");
+            English.Add("menu2", "Messe Brandenburg ");
+            English.Add("menu3", "Parties ");
             English.Add("menu4", "Download ");
             English.Add("menu5", "Contact");
             English.Add("SecondaryButton1", "User profile");

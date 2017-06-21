@@ -78,23 +78,7 @@
                     </Border>
                 </StackPanel>
                 <StackPanel   VerticalAlignment="Center" Height="429" Margin="0,124,15,105" >
-                    <GridView Name="dataItem"   HorizontalAlignment="Center"  ItemsSource="{x:Bind messel}" IsItemClickEnabled="True"   ItemClick="GridView_ItemClick" Margin="0,0,83,0" Height="454" >
-                        <GridView.ItemTemplate>
-                            <DataTemplate x:DataType="data:Messe"   >
-                                <StackPanel  VerticalAlignment="Center" Width="350" Height="150">
-                                    <TextBlock  Name="titre"   Text="{x:Bind title}" />
-
-                                    <TextBlock   Text="{x:Bind date_start}"   VerticalAlignment="Center"/>
-                                    <TextBlock    Text="{x:Bind date_end}"  VerticalAlignment="Center" />
-                                    <TextBlock  Text="{x:Bind messe_city}"  VerticalAlignment="Center" />
-                                    <TextBlock    Text="{x:Bind messelink}"  VerticalAlignment="Center"/>
-                                    <TextBlock>
-                                  <Hyperlink   NavigateUri="{x:Bind messelink}"/>
-                                    </TextBlock>
-                                </StackPanel>
-                            </DataTemplate>
-                        </GridView.ItemTemplate>
-                    </GridView>
+                  
                     <TextBlock Width="350"   x:Name="result"  HorizontalAlignment="Center"/>
 
                 </StackPanel>

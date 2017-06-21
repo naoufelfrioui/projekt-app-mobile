@@ -13,39 +13,23 @@ namespace Event.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {
-        public String Header { get; set; }
+        
         public MainPageViewModel()
         {
 
             if (Windows.ApplicationModel.DesignMode.DesignModeEnabled)
             {
                 Value = "Designtime value";
+                myMesse = null;
             }
             
         }
-             private string head;
-        public string header
-        {
-            get { return head; }
-            set
-            {
-                head = value;
-                    RaisePropertyChanged();
-                
-            }
-        }
- 
-       
+
         string _Value = "Gas";
-
-
-    
-
-
-
-
+        Here m = null;
 
         public string Value { get { return _Value; } set { Set(ref _Value, value); } }
+        public Here myMesse { get { return m; } set { Set(ref m, myMesse); } }
 
         public override async Task OnNavigatedToAsync(object parameter, NavigationMode mode, IDictionary<string, object> suspensionState)
         {
@@ -74,7 +58,7 @@ namespace Event.ViewModels
         public void GotoDetailsPage() =>
             NavigationService.Navigate(typeof(Views.DetailPage), Value);
         public void GotoEvents() =>
-            NavigationService.Navigate(typeof(Views.MesseInfo),Value );
+            NavigationService.Navigate(typeof(Views.Location), Value);
         public void GotoSettings() =>
             NavigationService.Navigate(typeof(Views.SettingsPage), 0);
 

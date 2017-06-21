@@ -26799,10 +26799,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Frioui\\Documents\\Visual Studio 2015\\Projects\\Event\\Event\\Event.csproj",
+      "projectUniqueName": "C:\\Users\\Frioui\\Desktop\\Event\\Event\\Event.csproj",
       "projectName": "Event",
-      "projectPath": "C:\\Users\\Frioui\\Documents\\Visual Studio 2015\\Projects\\Event\\Event\\Event.csproj",
-      "projectJsonPath": "C:\\Users\\Frioui\\Documents\\Visual Studio 2015\\Projects\\Event\\Event\\project.json",
+      "projectPath": "C:\\Users\\Frioui\\Desktop\\Event\\Event\\Event.csproj",
+      "projectJsonPath": "C:\\Users\\Frioui\\Desktop\\Event\\Event\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

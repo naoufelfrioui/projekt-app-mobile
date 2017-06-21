@@ -10,7 +10,7 @@ namespace Event.Views
     public sealed partial class SettingsPage : Page
     {
         Template10.Services.SerializationService.ISerializationService _SerializationService;
-        private MainPageViewModel vm;
+       
       
         public SettingsPage()
         {

@@ -10,6 +10,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       xmlns:vm="using:Event.ViewModels"
       xmlns:data="using:Event.Models"
+      xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
       x:Name="ThisPage"
       mc:Ignorable="d">
 
@@ -66,39 +67,86 @@
                       RelativePanel.Below="pageHeader"
                       VerticalScrollBarVisibility="Auto">
 
-            <Grid x:ConnectionId='8' x:Name="LayoutRoot">
+            <Grid x:ConnectionId='8' x:Name="LayoutRoot" Height="592" >
 
-                <StackPanel   Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,100,-8,570" Width="356">
-                    <TextBox x:ConnectionId='19' x:Name="Searchtext"   Text="Musik"   Width="257"/>
-                    <Button x:ConnectionId='20' Content="Start" x:Name="StartButton" Margin="5,0,0,0"                            Width="69" />
-                </StackPanel>
-
-                <StackPanel x:ConnectionId='9' x:Name="wait" Margin="53,0,92,627">
-                    <Border BorderThickness="5"  Height="77" >
+                <StackPanel x:ConnectionId='9'   x:Name="wait" Margin="53,0,92,508">
+                    <Border BorderThickness="5"  Height="72" >
                         <StackPanel  >
                             <TextBlock HorizontalAlignment="Center" 
                          Margin="10" Text="Waiting Please ...." FontWeight="Bold" Foreground="#FFDE1212"   />
-                            <ProgressBar x:ConnectionId='18' x:Name="pg2" Margin="10" Height="16"  IsIndeterminate="True"   />
+                            <ProgressBar x:ConnectionId='29' x:Name="pg2" Margin="10" Height="16"  IsIndeterminate="True"   />
                         </StackPanel>
                     </Border>
                 </StackPanel>
-                <StackPanel   VerticalAlignment="Center" Height="429" Margin="30,170,15,105" >
-                    <GridView x:ConnectionId='10' Name="dataItem"   HorizontalAlignment="Center"                                IsItemClickEnabled="True"   Margin="0,0,83,0" Height="409" >
-                        <GridView.ItemTemplate>
-                            <DataTemplate                               >
-                                <StackPanel x:ConnectionId='12'  VerticalAlignment="Center" Width="350" Height="150">
-                                    <TextBlock x:ConnectionId='13'  Name="titre"                              />
-                                    <TextBlock x:ConnectionId='14'                                 VerticalAlignment="Center"/>
-                                    <TextBlock x:ConnectionId='15'                              VerticalAlignment="Center" />
-                                    <TextBlock x:ConnectionId='16'                                 VerticalAlignment="Center" />
-                                    <TextBlock x:ConnectionId='17'                              VerticalAlignment="Center"/>
 
+
+
+                <StackPanel x:ConnectionId='10'  Visibility="Collapsed"  Name="Panelmaps"  >
+                    <Button x:ConnectionId='24'  x:Name="back"                      Width="69" Height="61"   >
+                        <Button.Background >
+                            <ImageBrush Stretch="Fill"   ImageSource="ms-appx:///Assets/back2.png"/>
+                        </Button.Background>
+                    </Button>
+                    <TextBlock x:ConnectionId='25'   Name="title"  Text=""  HorizontalAlignment="Center"   VerticalAlignment="Center"  FontWeight="Bold" FontSize="18" Foreground="#FFAE1111"  />
+                    <TextBlock x:ConnectionId='26'   Name="body"  Text="" TextWrapping="Wrap" HorizontalAlignment="Left"    Margin="10,20,0,0"  >
+
+                    </TextBlock>
+                    <StackPanel x:ConnectionId='27'   Name="mapss" Height="324"  >
+                        <Maps:MapControl x:ConnectionId='28' x:Name="maps" Height="400"  Margin="0,10,0,0"  />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel x:ConnectionId='11'  Name="Paneldata1"  Orientation="Horizontal" HorizontalAlignment="Center" Margin="16,89,10,455" Width="322" >
+                    <TextBox x:ConnectionId='22' x:Name="Searchtext"   Text="Musik"   Width="270" Margin="0,-3,0,10"  />
+                    <Button x:ConnectionId='23' Content="" x:Name="StartButton"                             Width="50" Height="41" RenderTransformOrigin="0.561,-0.593" Margin="0,-3,0,10" VerticalAlignment="Bottom" >
+                        <Button.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/search1.png"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+                <StackPanel x:ConnectionId='12' Name="Paneldata" VerticalAlignment="Bottom" Height="440" Margin="0,20,0,10"     >
+                    <GridView x:ConnectionId='13' Name="dataItem"    HorizontalAlignment="Center"                                     IsItemClickEnabled="True"                                       Height="452" >
+
+                        <GridView.ItemTemplate   >
+                            <DataTemplate                              >
+                                <StackPanel x:ConnectionId='15' VerticalAlignment="Center" Width="364" Height="250">
+
+                                    <TextBlock       VerticalAlignment="Center" Width="250" TextWrapping="Wrap" Height="60" FontWeight="Bold" Foreground="#FFAE1111" >
+                                        <Run x:ConnectionId='21'                            />
+                                    </TextBlock>
+                                    <Image x:ConnectionId='16'                                      Height="80"  Margin="30,0,90,0" />
+                                    <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Margin="57,0,111,0" Width="196">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+
+                                        </Grid.RowDefinitions>
+                                        <TextBlock TextWrapping="Wrap"  Grid.Row="0" Grid.Column="0"   Text="Date Start: " FontWeight="Bold" />
+                                        <TextBlock TextWrapping="Wrap"  Grid.Row="1" Grid.Column="0"   Text="Date End: " FontWeight="Bold" />
+                                        <TextBlock TextWrapping="Wrap"  Grid.Row="2" Grid.Column="0"   Text="Town: " FontWeight="Bold"/>
+                                        <TextBlock x:ConnectionId='17'                              TextWrapping="Wrap" Grid.Row="0" Grid.Column="1"   />
+                                        <TextBlock x:ConnectionId='18'                           TextWrapping="Wrap" Grid.Row="1" Grid.Column="1"   />
+                                        <TextBlock x:ConnectionId='19'                             TextWrapping="Wrap" Grid.Row="2" Grid.Column="1"   />
+                                        <TextBlock  TextWrapping="Wrap" Grid.Row="3" Grid.Column="1"    />
+                                        <TextBlock TextWrapping="Wrap"  Grid.Row="3" Grid.Column="0"  Height="40">
+                                    <Hyperlink x:ConnectionId='20'                                      Foreground="#FF0F21F5"  >PartyLinks</Hyperlink>
+                                        </TextBlock>
+                                    </Grid>
+
+
+                                    <AppBar  Height="3"></AppBar>
                                 </StackPanel>
                             </DataTemplate>
                         </GridView.ItemTemplate>
                     </GridView>
-                    <TextBlock x:ConnectionId='11' Width="350"   x:Name="result"  HorizontalAlignment="Center"/>
-
+                    <!--  <Hyperlink NavigateUri="{x:Bind   url}" >Link</Hyperlink> <TextBox Width="350"   x:Name="result"   Text="{Binding Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" Height="32" Margin="-8,0,-9,0"   {x:Bind ViewModel.GotoEvents} />
+-->
+                    <TextBlock x:ConnectionId='14'  Name="result"  TextWrapping="Wrap"  Grid.Row="3" Grid.Column="0" />
                 </StackPanel>
             </Grid>
         </ScrollViewer>

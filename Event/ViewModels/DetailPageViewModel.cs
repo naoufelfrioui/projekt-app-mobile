@@ -1,3 +1,4 @@
+using Event.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,21 +13,25 @@ namespace Event.ViewModels
 {
     public class DetailPageViewModel : ViewModelBase
     {
+        
         public DetailPageViewModel()
-        {
+        {  
             if (Windows.ApplicationModel.DesignMode.DesignModeEnabled)
             {
                 Value = "Designtime value";
+
+                selectmesse = null;
             }
         }
-
+        Here m = null;
         private string _Value = "Default";
         public string Value { get { return _Value; } set { Set(ref _Value, value); } }
-
+        public Here selectmesse { get { return m; } set { Set(ref m, selectmesse); } }
         public override async Task OnNavigatedToAsync(object parameter, NavigationMode mode, IDictionary<string, object> suspensionState)
         {
             Value = (suspensionState.ContainsKey(nameof(Value))) ? suspensionState[nameof(Value)]?.ToString() : parameter?.ToString();
-            await Task.CompletedTask;
+            selectmesse = parameter as Here;
+                 await Task.CompletedTask;
         }
 
         public override async Task OnNavigatedFromAsync(IDictionary<string, object> suspensionState, bool suspending)

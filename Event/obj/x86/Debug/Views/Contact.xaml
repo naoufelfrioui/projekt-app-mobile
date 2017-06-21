@@ -82,7 +82,7 @@
                     <TextBlock TextWrapping="Wrap" Margin="15,0,10,0" Grid.Row="0" Grid.Column="0"  HorizontalAlignment="Left" Text="Messe Event Windows phone Application " />
                     <TextBlock TextWrapping="Wrap" Margin="15,0,10,0" Grid.Row="1" Grid.Column="0"  HorizontalAlignment="Left" Text="" />
                     <TextBlock TextWrapping="Wrap" Margin="15,0,10,0" Grid.Row="2" Grid.Column="0"  HorizontalAlignment="Left" Text="Name: " />
-                    <TextBlock TextWrapping="Wrap" Margin="15,0,10,0" Grid.Row="3" Grid.Column="0"  HorizontalAlignment="Left" Text="ali Haouari , Naoufel Frioui, Oussama Mzoughi " />
+                    <TextBlock TextWrapping="Wrap" Margin="15,0,10,0" Grid.Row="3" Grid.Column="0"  HorizontalAlignment="Left" Text="ali Haouari , Naoufel Frioui, Oussama Mzoughi "    />
                     <TextBlock TextWrapping="Wrap" Margin="15,0,10,0" Grid.Row="4" Grid.Column="0"  HorizontalAlignment="Left" Text="" />
                     <TextBlock TextWrapping="Wrap" Margin="15,0,10,0" Grid.Row="5" Grid.Column="0"  HorizontalAlignment="Left" Text="Adresse: " />
                     <TextBlock TextWrapping="Wrap" Margin="15,0,10,0" Grid.Row="6" Grid.Column="0"  HorizontalAlignment="Left" Text="Zander str. 10D

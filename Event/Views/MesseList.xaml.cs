@@ -94,7 +94,7 @@ namespace Event.Views
             Uri requestUri = new Uri(url);
             string response = await Client.GetStringAsync(requestUri);
             json.Text = response;
-            var data = JsonConvert.DeserializeObject<RootObject>(response);
+          //  var data = JsonConvert.DeserializeObject<RootObject>(response);
             // json.Text = data.main.temp.ToString();
             
            

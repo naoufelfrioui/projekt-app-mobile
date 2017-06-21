@@ -156,7 +156,7 @@ namespace Event.Event_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[84];
+            _typeNameTable = new string[85];
             _typeNameTable[0] = "Template10.Common.BootStrapper";
             _typeNameTable[1] = "Windows.UI.Xaml.Application";
             _typeNameTable[2] = "Template10.Common.StateItems";
@@ -179,70 +179,71 @@ namespace Event.Event_XamlTypeInfo
             _typeNameTable[19] = "Event.ViewModels.DetailPageViewModel";
             _typeNameTable[20] = "Template10.Mvvm.ViewModelBase";
             _typeNameTable[21] = "Template10.Mvvm.BindableBase";
-            _typeNameTable[22] = "Template10.Common.IDispatcherWrapper";
-            _typeNameTable[23] = "Template10.Common.IStateItems";
-            _typeNameTable[24] = "Template10.Controls.PageHeader";
-            _typeNameTable[25] = "Windows.UI.Xaml.Controls.CommandBar";
-            _typeNameTable[26] = "Windows.UI.Xaml.Controls.Frame";
-            _typeNameTable[27] = "Template10.Behaviors.EllipsisBehavior.Visibilities";
-            _typeNameTable[28] = "Windows.UI.Xaml.Visibility";
-            _typeNameTable[29] = "Windows.UI.Xaml.Controls.Symbol";
-            _typeNameTable[30] = "Double";
-            _typeNameTable[31] = "Event.Views.Download";
-            _typeNameTable[32] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[33] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[34] = "Windows.UI.Color";
-            _typeNameTable[35] = "Byte";
-            _typeNameTable[36] = "Template10.Controls.HamburgerMenu";
-            _typeNameTable[37] = "System.Collections.ObjectModel.ObservableCollection`1<Template10.Controls.HamburgerButtonInfo>";
-            _typeNameTable[38] = "System.Collections.ObjectModel.Collection`1<Template10.Controls.HamburgerButtonInfo>";
-            _typeNameTable[39] = "Template10.Controls.HamburgerButtonInfo";
-            _typeNameTable[40] = "Template10.Mvvm.DependencyBindableBase";
-            _typeNameTable[41] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[42] = "Template10.Controls.HamburgerButtonInfo.ButtonTypes";
-            _typeNameTable[43] = "Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo";
-            _typeNameTable[44] = "System.Windows.Input.ICommand";
-            _typeNameTable[45] = "System.Type";
-            _typeNameTable[46] = "System.Nullable`1<Boolean>";
-            _typeNameTable[47] = "Windows.UI.Xaml.Thickness";
-            _typeNameTable[48] = "Windows.UI.Xaml.Media.Brush";
-            _typeNameTable[49] = "Windows.UI.Xaml.Controls.SplitViewDisplayMode";
-            _typeNameTable[50] = "Windows.UI.Xaml.Controls.Orientation";
-            _typeNameTable[51] = "Template10.Controls.HamburgerMenu.OpenCloseModes";
-            _typeNameTable[52] = "Template10.Mvvm.DelegateCommand`1<Template10.Controls.HamburgerButtonInfo>";
-            _typeNameTable[53] = "Template10.Controls.Resizer";
-            _typeNameTable[54] = "Windows.UI.Xaml.Controls.Control";
-            _typeNameTable[55] = "Windows.Foundation.Size";
-            _typeNameTable[56] = "Event.Views.Busy";
-            _typeNameTable[57] = "Event.Views.Contact";
-            _typeNameTable[58] = "Event.Views.SelectMesse";
-            _typeNameTable[59] = "Event.Views.Location";
-            _typeNameTable[60] = "Event.Views.MesseInfo";
-            _typeNameTable[61] = "Event.Models.Messe";
-            _typeNameTable[62] = "Event.Views.Search";
-            _typeNameTable[63] = "Event.Views.Events";
-            _typeNameTable[64] = "Event.Views.MesseEvent";
-            _typeNameTable[65] = "Event.Views.Messelist";
-            _typeNameTable[66] = "Event.Views.DetailPage";
-            _typeNameTable[67] = "Event.ViewModels.MainPageViewModel";
-            _typeNameTable[68] = "Event.Views.MainPage";
-            _typeNameTable[69] = "Event.ViewModels.SettingsPageViewModel";
-            _typeNameTable[70] = "Event.ViewModels.SettingsPartViewModel";
-            _typeNameTable[71] = "Event.ViewModels.AboutPartViewModel";
-            _typeNameTable[72] = "Template10.Converters.ValueWhenConverter";
-            _typeNameTable[73] = "Event.Views.SettingsPage";
-            _typeNameTable[74] = "Microsoft.Xaml.Interactivity.Interaction";
-            _typeNameTable[75] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
-            _typeNameTable[76] = "Windows.UI.Xaml.DependencyObjectCollection";
-            _typeNameTable[77] = "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior";
-            _typeNameTable[78] = "Microsoft.Xaml.Interactivity.Trigger";
-            _typeNameTable[79] = "Microsoft.Xaml.Interactivity.Behavior";
-            _typeNameTable[80] = "Microsoft.Xaml.Interactivity.ActionCollection";
-            _typeNameTable[81] = "Template10.Behaviors.MessageDialogAction";
-            _typeNameTable[82] = "Event.Views.Shell";
-            _typeNameTable[83] = "Event.Views.Splash";
+            _typeNameTable[22] = "Event.Models.Here";
+            _typeNameTable[23] = "Template10.Common.IDispatcherWrapper";
+            _typeNameTable[24] = "Template10.Common.IStateItems";
+            _typeNameTable[25] = "Template10.Controls.PageHeader";
+            _typeNameTable[26] = "Windows.UI.Xaml.Controls.CommandBar";
+            _typeNameTable[27] = "Windows.UI.Xaml.Controls.Frame";
+            _typeNameTable[28] = "Template10.Behaviors.EllipsisBehavior.Visibilities";
+            _typeNameTable[29] = "Windows.UI.Xaml.Visibility";
+            _typeNameTable[30] = "Windows.UI.Xaml.Controls.Symbol";
+            _typeNameTable[31] = "Double";
+            _typeNameTable[32] = "Event.Views.Download";
+            _typeNameTable[33] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[34] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[35] = "Windows.UI.Color";
+            _typeNameTable[36] = "Byte";
+            _typeNameTable[37] = "Template10.Controls.HamburgerMenu";
+            _typeNameTable[38] = "System.Collections.ObjectModel.ObservableCollection`1<Template10.Controls.HamburgerButtonInfo>";
+            _typeNameTable[39] = "System.Collections.ObjectModel.Collection`1<Template10.Controls.HamburgerButtonInfo>";
+            _typeNameTable[40] = "Template10.Controls.HamburgerButtonInfo";
+            _typeNameTable[41] = "Template10.Mvvm.DependencyBindableBase";
+            _typeNameTable[42] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[43] = "Template10.Controls.HamburgerButtonInfo.ButtonTypes";
+            _typeNameTable[44] = "Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo";
+            _typeNameTable[45] = "System.Windows.Input.ICommand";
+            _typeNameTable[46] = "System.Type";
+            _typeNameTable[47] = "System.Nullable`1<Boolean>";
+            _typeNameTable[48] = "Windows.UI.Xaml.Thickness";
+            _typeNameTable[49] = "Windows.UI.Xaml.Media.Brush";
+            _typeNameTable[50] = "Windows.UI.Xaml.Controls.SplitViewDisplayMode";
+            _typeNameTable[51] = "Windows.UI.Xaml.Controls.Orientation";
+            _typeNameTable[52] = "Template10.Controls.HamburgerMenu.OpenCloseModes";
+            _typeNameTable[53] = "Template10.Mvvm.DelegateCommand`1<Template10.Controls.HamburgerButtonInfo>";
+            _typeNameTable[54] = "Template10.Controls.Resizer";
+            _typeNameTable[55] = "Windows.UI.Xaml.Controls.Control";
+            _typeNameTable[56] = "Windows.Foundation.Size";
+            _typeNameTable[57] = "Event.Views.Busy";
+            _typeNameTable[58] = "Event.Views.Contact";
+            _typeNameTable[59] = "Event.Views.SelectMesse";
+            _typeNameTable[60] = "Event.Views.Location";
+            _typeNameTable[61] = "Event.Views.MesseInfo";
+            _typeNameTable[62] = "Event.Models.Messe";
+            _typeNameTable[63] = "Event.Views.Search";
+            _typeNameTable[64] = "Event.ViewModels.MainPageViewModel";
+            _typeNameTable[65] = "Event.Views.Events";
+            _typeNameTable[66] = "Event.Views.MesseEvent";
+            _typeNameTable[67] = "Event.Views.Messelist";
+            _typeNameTable[68] = "Event.Views.DetailPage";
+            _typeNameTable[69] = "Event.Views.MainPage";
+            _typeNameTable[70] = "Event.ViewModels.SettingsPageViewModel";
+            _typeNameTable[71] = "Event.ViewModels.SettingsPartViewModel";
+            _typeNameTable[72] = "Event.ViewModels.AboutPartViewModel";
+            _typeNameTable[73] = "Template10.Converters.ValueWhenConverter";
+            _typeNameTable[74] = "Event.Views.SettingsPage";
+            _typeNameTable[75] = "Microsoft.Xaml.Interactivity.Interaction";
+            _typeNameTable[76] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
+            _typeNameTable[77] = "Windows.UI.Xaml.DependencyObjectCollection";
+            _typeNameTable[78] = "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior";
+            _typeNameTable[79] = "Microsoft.Xaml.Interactivity.Trigger";
+            _typeNameTable[80] = "Microsoft.Xaml.Interactivity.Behavior";
+            _typeNameTable[81] = "Microsoft.Xaml.Interactivity.ActionCollection";
+            _typeNameTable[82] = "Template10.Behaviors.MessageDialogAction";
+            _typeNameTable[83] = "Event.Views.Shell";
+            _typeNameTable[84] = "Event.Views.Splash";
 
-            _typeTable = new global::System.Type[84];
+            _typeTable = new global::System.Type[85];
             _typeTable[0] = typeof(global::Template10.Common.BootStrapper);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Application);
             _typeTable[2] = typeof(global::Template10.Common.StateItems);
@@ -265,68 +266,69 @@ namespace Event.Event_XamlTypeInfo
             _typeTable[19] = typeof(global::Event.ViewModels.DetailPageViewModel);
             _typeTable[20] = typeof(global::Template10.Mvvm.ViewModelBase);
             _typeTable[21] = typeof(global::Template10.Mvvm.BindableBase);
-            _typeTable[22] = typeof(global::Template10.Common.IDispatcherWrapper);
-            _typeTable[23] = typeof(global::Template10.Common.IStateItems);
-            _typeTable[24] = typeof(global::Template10.Controls.PageHeader);
-            _typeTable[25] = typeof(global::Windows.UI.Xaml.Controls.CommandBar);
-            _typeTable[26] = typeof(global::Windows.UI.Xaml.Controls.Frame);
-            _typeTable[27] = typeof(global::Template10.Behaviors.EllipsisBehavior.Visibilities);
-            _typeTable[28] = typeof(global::Windows.UI.Xaml.Visibility);
-            _typeTable[29] = typeof(global::Windows.UI.Xaml.Controls.Symbol);
-            _typeTable[30] = typeof(global::System.Double);
-            _typeTable[31] = typeof(global::Event.Views.Download);
-            _typeTable[32] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[33] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[34] = typeof(global::Windows.UI.Color);
-            _typeTable[35] = typeof(global::System.Byte);
-            _typeTable[36] = typeof(global::Template10.Controls.HamburgerMenu);
-            _typeTable[37] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Template10.Controls.HamburgerButtonInfo>);
-            _typeTable[38] = typeof(global::System.Collections.ObjectModel.Collection<global::Template10.Controls.HamburgerButtonInfo>);
-            _typeTable[39] = typeof(global::Template10.Controls.HamburgerButtonInfo);
-            _typeTable[40] = typeof(global::Template10.Mvvm.DependencyBindableBase);
-            _typeTable[41] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[42] = typeof(global::Template10.Controls.HamburgerButtonInfo.ButtonTypes);
-            _typeTable[43] = typeof(global::Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo);
-            _typeTable[44] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[45] = typeof(global::System.Type);
-            _typeTable[46] = typeof(global::System.Nullable<global::System.Boolean>);
-            _typeTable[47] = typeof(global::Windows.UI.Xaml.Thickness);
-            _typeTable[48] = typeof(global::Windows.UI.Xaml.Media.Brush);
-            _typeTable[49] = typeof(global::Windows.UI.Xaml.Controls.SplitViewDisplayMode);
-            _typeTable[50] = typeof(global::Windows.UI.Xaml.Controls.Orientation);
-            _typeTable[51] = typeof(global::Template10.Controls.HamburgerMenu.OpenCloseModes);
-            _typeTable[52] = typeof(global::Template10.Mvvm.DelegateCommand<global::Template10.Controls.HamburgerButtonInfo>);
-            _typeTable[53] = typeof(global::Template10.Controls.Resizer);
-            _typeTable[54] = typeof(global::Windows.UI.Xaml.Controls.Control);
-            _typeTable[55] = typeof(global::Windows.Foundation.Size);
-            _typeTable[56] = typeof(global::Event.Views.Busy);
-            _typeTable[57] = typeof(global::Event.Views.Contact);
-            _typeTable[58] = typeof(global::Event.Views.SelectMesse);
-            _typeTable[59] = typeof(global::Event.Views.Location);
-            _typeTable[60] = typeof(global::Event.Views.MesseInfo);
-            _typeTable[61] = typeof(global::Event.Models.Messe);
-            _typeTable[62] = typeof(global::Event.Views.Search);
-            _typeTable[63] = typeof(global::Event.Views.Events);
-            _typeTable[64] = typeof(global::Event.Views.MesseEvent);
-            _typeTable[65] = typeof(global::Event.Views.Messelist);
-            _typeTable[66] = typeof(global::Event.Views.DetailPage);
-            _typeTable[67] = typeof(global::Event.ViewModels.MainPageViewModel);
-            _typeTable[68] = typeof(global::Event.Views.MainPage);
-            _typeTable[69] = typeof(global::Event.ViewModels.SettingsPageViewModel);
-            _typeTable[70] = typeof(global::Event.ViewModels.SettingsPartViewModel);
-            _typeTable[71] = typeof(global::Event.ViewModels.AboutPartViewModel);
-            _typeTable[72] = typeof(global::Template10.Converters.ValueWhenConverter);
-            _typeTable[73] = typeof(global::Event.Views.SettingsPage);
-            _typeTable[74] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
-            _typeTable[75] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
-            _typeTable[76] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
-            _typeTable[77] = typeof(global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior);
-            _typeTable[78] = typeof(global::Microsoft.Xaml.Interactivity.Trigger);
-            _typeTable[79] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
-            _typeTable[80] = typeof(global::Microsoft.Xaml.Interactivity.ActionCollection);
-            _typeTable[81] = typeof(global::Template10.Behaviors.MessageDialogAction);
-            _typeTable[82] = typeof(global::Event.Views.Shell);
-            _typeTable[83] = typeof(global::Event.Views.Splash);
+            _typeTable[22] = typeof(global::Event.Models.Here);
+            _typeTable[23] = typeof(global::Template10.Common.IDispatcherWrapper);
+            _typeTable[24] = typeof(global::Template10.Common.IStateItems);
+            _typeTable[25] = typeof(global::Template10.Controls.PageHeader);
+            _typeTable[26] = typeof(global::Windows.UI.Xaml.Controls.CommandBar);
+            _typeTable[27] = typeof(global::Windows.UI.Xaml.Controls.Frame);
+            _typeTable[28] = typeof(global::Template10.Behaviors.EllipsisBehavior.Visibilities);
+            _typeTable[29] = typeof(global::Windows.UI.Xaml.Visibility);
+            _typeTable[30] = typeof(global::Windows.UI.Xaml.Controls.Symbol);
+            _typeTable[31] = typeof(global::System.Double);
+            _typeTable[32] = typeof(global::Event.Views.Download);
+            _typeTable[33] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[34] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[35] = typeof(global::Windows.UI.Color);
+            _typeTable[36] = typeof(global::System.Byte);
+            _typeTable[37] = typeof(global::Template10.Controls.HamburgerMenu);
+            _typeTable[38] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Template10.Controls.HamburgerButtonInfo>);
+            _typeTable[39] = typeof(global::System.Collections.ObjectModel.Collection<global::Template10.Controls.HamburgerButtonInfo>);
+            _typeTable[40] = typeof(global::Template10.Controls.HamburgerButtonInfo);
+            _typeTable[41] = typeof(global::Template10.Mvvm.DependencyBindableBase);
+            _typeTable[42] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[43] = typeof(global::Template10.Controls.HamburgerButtonInfo.ButtonTypes);
+            _typeTable[44] = typeof(global::Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo);
+            _typeTable[45] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[46] = typeof(global::System.Type);
+            _typeTable[47] = typeof(global::System.Nullable<global::System.Boolean>);
+            _typeTable[48] = typeof(global::Windows.UI.Xaml.Thickness);
+            _typeTable[49] = typeof(global::Windows.UI.Xaml.Media.Brush);
+            _typeTable[50] = typeof(global::Windows.UI.Xaml.Controls.SplitViewDisplayMode);
+            _typeTable[51] = typeof(global::Windows.UI.Xaml.Controls.Orientation);
+            _typeTable[52] = typeof(global::Template10.Controls.HamburgerMenu.OpenCloseModes);
+            _typeTable[53] = typeof(global::Template10.Mvvm.DelegateCommand<global::Template10.Controls.HamburgerButtonInfo>);
+            _typeTable[54] = typeof(global::Template10.Controls.Resizer);
+            _typeTable[55] = typeof(global::Windows.UI.Xaml.Controls.Control);
+            _typeTable[56] = typeof(global::Windows.Foundation.Size);
+            _typeTable[57] = typeof(global::Event.Views.Busy);
+            _typeTable[58] = typeof(global::Event.Views.Contact);
+            _typeTable[59] = typeof(global::Event.Views.SelectMesse);
+            _typeTable[60] = typeof(global::Event.Views.Location);
+            _typeTable[61] = typeof(global::Event.Views.MesseInfo);
+            _typeTable[62] = typeof(global::Event.Models.Messe);
+            _typeTable[63] = typeof(global::Event.Views.Search);
+            _typeTable[64] = typeof(global::Event.ViewModels.MainPageViewModel);
+            _typeTable[65] = typeof(global::Event.Views.Events);
+            _typeTable[66] = typeof(global::Event.Views.MesseEvent);
+            _typeTable[67] = typeof(global::Event.Views.Messelist);
+            _typeTable[68] = typeof(global::Event.Views.DetailPage);
+            _typeTable[69] = typeof(global::Event.Views.MainPage);
+            _typeTable[70] = typeof(global::Event.ViewModels.SettingsPageViewModel);
+            _typeTable[71] = typeof(global::Event.ViewModels.SettingsPartViewModel);
+            _typeTable[72] = typeof(global::Event.ViewModels.AboutPartViewModel);
+            _typeTable[73] = typeof(global::Template10.Converters.ValueWhenConverter);
+            _typeTable[74] = typeof(global::Event.Views.SettingsPage);
+            _typeTable[75] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
+            _typeTable[76] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
+            _typeTable[77] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
+            _typeTable[78] = typeof(global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior);
+            _typeTable[79] = typeof(global::Microsoft.Xaml.Interactivity.Trigger);
+            _typeTable[80] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
+            _typeTable[81] = typeof(global::Microsoft.Xaml.Interactivity.ActionCollection);
+            _typeTable[82] = typeof(global::Template10.Behaviors.MessageDialogAction);
+            _typeTable[83] = typeof(global::Event.Views.Shell);
+            _typeTable[84] = typeof(global::Event.Views.Splash);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -365,36 +367,37 @@ namespace Event.Event_XamlTypeInfo
         private object Activate_3_Dictionary() { return new global::System.Collections.Generic.Dictionary<global::System.String, global::System.Object>(); }
         private object Activate_16_ModalDialog() { return new global::Template10.Controls.ModalDialog(); }
         private object Activate_19_DetailPageViewModel() { return new global::Event.ViewModels.DetailPageViewModel(); }
-        private object Activate_24_PageHeader() { return new global::Template10.Controls.PageHeader(); }
-        private object Activate_31_Download() { return new global::Event.Views.Download(); }
-        private object Activate_36_HamburgerMenu() { return new global::Template10.Controls.HamburgerMenu(); }
-        private object Activate_37_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Template10.Controls.HamburgerButtonInfo>(); }
-        private object Activate_38_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Template10.Controls.HamburgerButtonInfo>(); }
-        private object Activate_39_HamburgerButtonInfo() { return new global::Template10.Controls.HamburgerButtonInfo(); }
-        private object Activate_53_Resizer() { return new global::Template10.Controls.Resizer(); }
-        private object Activate_56_Busy() { return new global::Event.Views.Busy(); }
-        private object Activate_57_Contact() { return new global::Event.Views.Contact(); }
-        private object Activate_58_SelectMesse() { return new global::Event.Views.SelectMesse(); }
-        private object Activate_59_Location() { return new global::Event.Views.Location(); }
-        private object Activate_60_MesseInfo() { return new global::Event.Views.MesseInfo(); }
-        private object Activate_61_Messe() { return new global::Event.Models.Messe(); }
-        private object Activate_62_Search() { return new global::Event.Views.Search(); }
-        private object Activate_63_Events() { return new global::Event.Views.Events(); }
-        private object Activate_64_MesseEvent() { return new global::Event.Views.MesseEvent(); }
-        private object Activate_65_Messelist() { return new global::Event.Views.Messelist(); }
-        private object Activate_66_DetailPage() { return new global::Event.Views.DetailPage(); }
-        private object Activate_67_MainPageViewModel() { return new global::Event.ViewModels.MainPageViewModel(); }
-        private object Activate_68_MainPage() { return new global::Event.Views.MainPage(); }
-        private object Activate_69_SettingsPageViewModel() { return new global::Event.ViewModels.SettingsPageViewModel(); }
-        private object Activate_70_SettingsPartViewModel() { return new global::Event.ViewModels.SettingsPartViewModel(); }
-        private object Activate_71_AboutPartViewModel() { return new global::Event.ViewModels.AboutPartViewModel(); }
-        private object Activate_72_ValueWhenConverter() { return new global::Template10.Converters.ValueWhenConverter(); }
-        private object Activate_73_SettingsPage() { return new global::Event.Views.SettingsPage(); }
-        private object Activate_75_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
-        private object Activate_77_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
-        private object Activate_80_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
-        private object Activate_81_MessageDialogAction() { return new global::Template10.Behaviors.MessageDialogAction(); }
-        private object Activate_82_Shell() { return new global::Event.Views.Shell(); }
+        private object Activate_22_Here() { return new global::Event.Models.Here(); }
+        private object Activate_25_PageHeader() { return new global::Template10.Controls.PageHeader(); }
+        private object Activate_32_Download() { return new global::Event.Views.Download(); }
+        private object Activate_37_HamburgerMenu() { return new global::Template10.Controls.HamburgerMenu(); }
+        private object Activate_38_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Template10.Controls.HamburgerButtonInfo>(); }
+        private object Activate_39_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Template10.Controls.HamburgerButtonInfo>(); }
+        private object Activate_40_HamburgerButtonInfo() { return new global::Template10.Controls.HamburgerButtonInfo(); }
+        private object Activate_54_Resizer() { return new global::Template10.Controls.Resizer(); }
+        private object Activate_57_Busy() { return new global::Event.Views.Busy(); }
+        private object Activate_58_Contact() { return new global::Event.Views.Contact(); }
+        private object Activate_59_SelectMesse() { return new global::Event.Views.SelectMesse(); }
+        private object Activate_60_Location() { return new global::Event.Views.Location(); }
+        private object Activate_61_MesseInfo() { return new global::Event.Views.MesseInfo(); }
+        private object Activate_62_Messe() { return new global::Event.Models.Messe(); }
+        private object Activate_63_Search() { return new global::Event.Views.Search(); }
+        private object Activate_64_MainPageViewModel() { return new global::Event.ViewModels.MainPageViewModel(); }
+        private object Activate_65_Events() { return new global::Event.Views.Events(); }
+        private object Activate_66_MesseEvent() { return new global::Event.Views.MesseEvent(); }
+        private object Activate_67_Messelist() { return new global::Event.Views.Messelist(); }
+        private object Activate_68_DetailPage() { return new global::Event.Views.DetailPage(); }
+        private object Activate_69_MainPage() { return new global::Event.Views.MainPage(); }
+        private object Activate_70_SettingsPageViewModel() { return new global::Event.ViewModels.SettingsPageViewModel(); }
+        private object Activate_71_SettingsPartViewModel() { return new global::Event.ViewModels.SettingsPartViewModel(); }
+        private object Activate_72_AboutPartViewModel() { return new global::Event.ViewModels.AboutPartViewModel(); }
+        private object Activate_73_ValueWhenConverter() { return new global::Template10.Converters.ValueWhenConverter(); }
+        private object Activate_74_SettingsPage() { return new global::Event.Views.SettingsPage(); }
+        private object Activate_76_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
+        private object Activate_78_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
+        private object Activate_81_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
+        private object Activate_82_MessageDialogAction() { return new global::Template10.Behaviors.MessageDialogAction(); }
+        private object Activate_83_Shell() { return new global::Event.Views.Shell(); }
         private void MapAdd_2_StateItems(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -409,25 +412,25 @@ namespace Event.Event_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_37_ObservableCollection(object instance, object item)
+        private void VectorAdd_38_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Template10.Controls.HamburgerButtonInfo>)instance;
             var newItem = (global::Template10.Controls.HamburgerButtonInfo)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_38_Collection(object instance, object item)
+        private void VectorAdd_39_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Template10.Controls.HamburgerButtonInfo>)instance;
             var newItem = (global::Template10.Controls.HamburgerButtonInfo)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_75_BehaviorCollection(object instance, object item)
+        private void VectorAdd_76_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_80_ActionCollection(object instance, object item)
+        private void VectorAdd_81_ActionCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
@@ -570,6 +573,7 @@ namespace Event.Event_XamlTypeInfo
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
                 userType.Activator = Activate_19_DetailPageViewModel;
                 userType.AddMemberName("Value");
+                userType.AddMemberName("selectmesse");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -587,21 +591,28 @@ namespace Event.Event_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 22:   //  Template10.Common.IDispatcherWrapper
+            case 22:   //  Event.Models.Here
+                userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 23:   //  Template10.Common.IDispatcherWrapper
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 23:   //  Template10.Common.IStateItems
+            case 24:   //  Template10.Common.IStateItems
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 24:   //  Template10.Controls.PageHeader
+            case 25:   //  Template10.Controls.PageHeader
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.CommandBar"));
-                userType.Activator = Activate_24_PageHeader;
+                userType.Activator = Activate_25_PageHeader;
                 userType.AddMemberName("Frame");
                 userType.AddMemberName("Text");
                 userType.AddMemberName("EllipsisVisibility");
@@ -614,15 +625,15 @@ namespace Event.Event_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 25:   //  Windows.UI.Xaml.Controls.CommandBar
+            case 26:   //  Windows.UI.Xaml.Controls.CommandBar
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 26:   //  Windows.UI.Xaml.Controls.Frame
+            case 27:   //  Windows.UI.Xaml.Controls.Frame
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 27:   //  Template10.Behaviors.EllipsisBehavior.Visibilities
+            case 28:   //  Template10.Behaviors.EllipsisBehavior.Visibilities
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Visible", global::Template10.Behaviors.EllipsisBehavior.Visibilities.Visible);
                 userType.AddEnumValue("Collapsed", global::Template10.Behaviors.EllipsisBehavior.Visibilities.Collapsed);
@@ -630,34 +641,34 @@ namespace Event.Event_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 28:   //  Windows.UI.Xaml.Visibility
+            case 29:   //  Windows.UI.Xaml.Visibility
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 29:   //  Windows.UI.Xaml.Controls.Symbol
+            case 30:   //  Windows.UI.Xaml.Controls.Symbol
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 30:   //  Double
+            case 31:   //  Double
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 31:   //  Event.Views.Download
+            case 32:   //  Event.Views.Download
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_31_Download;
+                userType.Activator = Activate_32_Download;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 32:   //  Windows.UI.Xaml.Controls.Page
+            case 33:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 33:   //  Windows.UI.Xaml.Controls.UserControl
+            case 34:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 34:   //  Windows.UI.Color
+            case 35:   //  Windows.UI.Color
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.AddMemberName("A");
                 userType.AddMemberName("B");
@@ -666,15 +677,15 @@ namespace Event.Event_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 35:   //  Byte
+            case 36:   //  Byte
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 36:   //  Template10.Controls.HamburgerMenu
+            case 37:   //  Template10.Controls.HamburgerMenu
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_36_HamburgerMenu;
+                userType.Activator = Activate_37_HamburgerMenu;
                 userType.SetContentPropertyName("Template10.Controls.HamburgerMenu.PrimaryButtons");
                 userType.AddMemberName("PrimaryButtons");
                 userType.AddMemberName("PaneBorderThickness");
@@ -716,23 +727,23 @@ namespace Event.Event_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 37:   //  System.Collections.ObjectModel.ObservableCollection`1<Template10.Controls.HamburgerButtonInfo>
+            case 38:   //  System.Collections.ObjectModel.ObservableCollection`1<Template10.Controls.HamburgerButtonInfo>
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Template10.Controls.HamburgerButtonInfo>"));
-                userType.CollectionAdd = VectorAdd_37_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_38_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 38:   //  System.Collections.ObjectModel.Collection`1<Template10.Controls.HamburgerButtonInfo>
+            case 39:   //  System.Collections.ObjectModel.Collection`1<Template10.Controls.HamburgerButtonInfo>
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_38_Collection;
-                userType.CollectionAdd = VectorAdd_38_Collection;
+                userType.Activator = Activate_39_Collection;
+                userType.CollectionAdd = VectorAdd_39_Collection;
                 xamlType = userType;
                 break;
 
-            case 39:   //  Template10.Controls.HamburgerButtonInfo
+            case 40:   //  Template10.Controls.HamburgerButtonInfo
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.DependencyBindableBase"));
-                userType.Activator = Activate_39_HamburgerButtonInfo;
+                userType.Activator = Activate_40_HamburgerButtonInfo;
                 userType.SetContentPropertyName("Template10.Controls.HamburgerButtonInfo.Content");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("ButtonType");
@@ -752,16 +763,16 @@ namespace Event.Event_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 40:   //  Template10.Mvvm.DependencyBindableBase
+            case 41:   //  Template10.Mvvm.DependencyBindableBase
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 xamlType = userType;
                 break;
 
-            case 41:   //  Windows.UI.Xaml.DependencyObject
+            case 42:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 42:   //  Template10.Controls.HamburgerButtonInfo.ButtonTypes
+            case 43:   //  Template10.Controls.HamburgerButtonInfo.ButtonTypes
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Toggle", global::Template10.Controls.HamburgerButtonInfo.ButtonTypes.Toggle);
                 userType.AddEnumValue("Command", global::Template10.Controls.HamburgerButtonInfo.ButtonTypes.Command);
@@ -769,45 +780,45 @@ namespace Event.Event_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 43:   //  Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo
+            case 44:   //  Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 44:   //  System.Windows.Input.ICommand
+            case 45:   //  System.Windows.Input.ICommand
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 45:   //  System.Type
+            case 46:   //  System.Type
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 46:   //  System.Nullable`1<Boolean>
+            case 47:   //  System.Nullable`1<Boolean>
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 47:   //  Windows.UI.Xaml.Thickness
+            case 48:   //  Windows.UI.Xaml.Thickness
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 48:   //  Windows.UI.Xaml.Media.Brush
+            case 49:   //  Windows.UI.Xaml.Media.Brush
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 49:   //  Windows.UI.Xaml.Controls.SplitViewDisplayMode
+            case 50:   //  Windows.UI.Xaml.Controls.SplitViewDisplayMode
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 50:   //  Windows.UI.Xaml.Controls.Orientation
+            case 51:   //  Windows.UI.Xaml.Controls.Orientation
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 51:   //  Template10.Controls.HamburgerMenu.OpenCloseModes
+            case 52:   //  Template10.Controls.HamburgerMenu.OpenCloseModes
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::Template10.Controls.HamburgerMenu.OpenCloseModes.None);
                 userType.AddEnumValue("Auto", global::Template10.Controls.HamburgerMenu.OpenCloseModes.Auto);
@@ -816,15 +827,15 @@ namespace Event.Event_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 52:   //  Template10.Mvvm.DelegateCommand`1<Template10.Controls.HamburgerButtonInfo>
+            case 53:   //  Template10.Mvvm.DelegateCommand`1<Template10.Controls.HamburgerButtonInfo>
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 53:   //  Template10.Controls.Resizer
+            case 54:   //  Template10.Controls.Resizer
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_53_Resizer;
+                userType.Activator = Activate_54_Resizer;
                 userType.SetContentPropertyName("Template10.Controls.Resizer.ElementControl");
                 userType.AddMemberName("ElementControl");
                 userType.AddMemberName("GrabberBrush");
@@ -833,138 +844,137 @@ namespace Event.Event_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 54:   //  Windows.UI.Xaml.Controls.Control
+            case 55:   //  Windows.UI.Xaml.Controls.Control
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 55:   //  Windows.Foundation.Size
+            case 56:   //  Windows.Foundation.Size
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 56:   //  Event.Views.Busy
+            case 57:   //  Event.Views.Busy
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_56_Busy;
+                userType.Activator = Activate_57_Busy;
                 userType.AddMemberName("BusyText");
                 userType.AddMemberName("IsBusy");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  Event.Views.Contact
+            case 58:   //  Event.Views.Contact
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_57_Contact;
+                userType.Activator = Activate_58_Contact;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 58:   //  Event.Views.SelectMesse
+            case 59:   //  Event.Views.SelectMesse
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_58_SelectMesse;
+                userType.Activator = Activate_59_SelectMesse;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 59:   //  Event.Views.Location
+            case 60:   //  Event.Views.Location
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_59_Location;
+                userType.Activator = Activate_60_Location;
+                userType.AddMemberName("messe");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 60:   //  Event.Views.MesseInfo
+            case 61:   //  Event.Views.MesseInfo
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_60_MesseInfo;
+                userType.Activator = Activate_61_MesseInfo;
                 userType.AddMemberName("Messe");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 61:   //  Event.Models.Messe
+            case 62:   //  Event.Models.Messe
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 62:   //  Event.Views.Search
+            case 63:   //  Event.Views.Search
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_62_Search;
+                userType.Activator = Activate_63_Search;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 63:   //  Event.Views.Events
-                userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_63_Events;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 64:   //  Event.Views.MesseEvent
-                userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_64_MesseEvent;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 65:   //  Event.Views.Messelist
-                userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_65_Messelist;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 66:   //  Event.Views.DetailPage
-                userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_66_DetailPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 67:   //  Event.ViewModels.MainPageViewModel
+            case 64:   //  Event.ViewModels.MainPageViewModel
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
-                userType.Activator = Activate_67_MainPageViewModel;
-                userType.AddMemberName("Header");
-                userType.AddMemberName("header");
+                userType.Activator = Activate_64_MainPageViewModel;
                 userType.AddMemberName("Value");
+                userType.AddMemberName("myMesse");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 68:   //  Event.Views.MainPage
+            case 65:   //  Event.Views.Events
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_68_MainPage;
-                userType.AddMemberName("header");
+                userType.Activator = Activate_65_Events;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 69:   //  Event.ViewModels.SettingsPageViewModel
+            case 66:   //  Event.Views.MesseEvent
+                userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_66_MesseEvent;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 67:   //  Event.Views.Messelist
+                userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_67_Messelist;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 68:   //  Event.Views.DetailPage
+                userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_68_DetailPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 69:   //  Event.Views.MainPage
+                userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_69_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 70:   //  Event.ViewModels.SettingsPageViewModel
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
-                userType.Activator = Activate_69_SettingsPageViewModel;
+                userType.Activator = Activate_70_SettingsPageViewModel;
                 userType.AddMemberName("SettingsPartViewModel");
                 userType.AddMemberName("AboutPartViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 70:   //  Event.ViewModels.SettingsPartViewModel
+            case 71:   //  Event.ViewModels.SettingsPartViewModel
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 71:   //  Event.ViewModels.AboutPartViewModel
+            case 72:   //  Event.ViewModels.AboutPartViewModel
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 72:   //  Template10.Converters.ValueWhenConverter
+            case 73:   //  Template10.Converters.ValueWhenConverter
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_72_ValueWhenConverter;
+                userType.Activator = Activate_73_ValueWhenConverter;
                 userType.AddMemberName("When");
                 userType.AddMemberName("Value");
                 userType.AddMemberName("Otherwise");
@@ -973,76 +983,76 @@ namespace Event.Event_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 73:   //  Event.Views.SettingsPage
+            case 74:   //  Event.Views.SettingsPage
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_73_SettingsPage;
+                userType.Activator = Activate_74_SettingsPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 74:   //  Microsoft.Xaml.Interactivity.Interaction
+            case 75:   //  Microsoft.Xaml.Interactivity.Interaction
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Behaviors");
                 xamlType = userType;
                 break;
 
-            case 75:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
+            case 76:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_75_BehaviorCollection;
+                userType.CollectionAdd = VectorAdd_76_BehaviorCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 76:   //  Windows.UI.Xaml.DependencyObjectCollection
+            case 77:   //  Windows.UI.Xaml.DependencyObjectCollection
                 xamlType = new global::Event.Event_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 77:   //  Microsoft.Xaml.Interactions.Core.EventTriggerBehavior
+            case 78:   //  Microsoft.Xaml.Interactions.Core.EventTriggerBehavior
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Trigger"));
-                userType.Activator = Activate_77_EventTriggerBehavior;
+                userType.Activator = Activate_78_EventTriggerBehavior;
                 userType.SetContentPropertyName("Microsoft.Xaml.Interactivity.Trigger.Actions");
                 userType.AddMemberName("EventName");
                 userType.AddMemberName("SourceObject");
                 xamlType = userType;
                 break;
 
-            case 78:   //  Microsoft.Xaml.Interactivity.Trigger
+            case 79:   //  Microsoft.Xaml.Interactivity.Trigger
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior"));
                 userType.SetContentPropertyName("Microsoft.Xaml.Interactivity.Trigger.Actions");
                 userType.AddMemberName("Actions");
                 xamlType = userType;
                 break;
 
-            case 79:   //  Microsoft.Xaml.Interactivity.Behavior
+            case 80:   //  Microsoft.Xaml.Interactivity.Behavior
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("AssociatedObject");
                 xamlType = userType;
                 break;
 
-            case 80:   //  Microsoft.Xaml.Interactivity.ActionCollection
+            case 81:   //  Microsoft.Xaml.Interactivity.ActionCollection
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_80_ActionCollection;
+                userType.CollectionAdd = VectorAdd_81_ActionCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 81:   //  Template10.Behaviors.MessageDialogAction
+            case 82:   //  Template10.Behaviors.MessageDialogAction
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_81_MessageDialogAction;
+                userType.Activator = Activate_82_MessageDialogAction;
                 userType.AddMemberName("Title");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("OkText");
                 xamlType = userType;
                 break;
 
-            case 82:   //  Event.Views.Shell
+            case 83:   //  Event.Views.Shell
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_82_Shell;
+                userType.Activator = Activate_83_Shell;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 83:   //  Event.Views.Splash
+            case 84:   //  Event.Views.Splash
                 userType = new global::Event.Event_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -1236,765 +1246,765 @@ namespace Event.Event_XamlTypeInfo
             var that = (global::Event.ViewModels.DetailPageViewModel)instance;
             that.Value = (global::System.String)Value;
         }
-        private object get_15_ViewModelBase_NavigationService(object instance)
+        private object get_15_DetailPageViewModel_selectmesse(object instance)
+        {
+            var that = (global::Event.ViewModels.DetailPageViewModel)instance;
+            return that.selectmesse;
+        }
+        private void set_15_DetailPageViewModel_selectmesse(object instance, object Value)
+        {
+            var that = (global::Event.ViewModels.DetailPageViewModel)instance;
+            that.selectmesse = (global::Event.Models.Here)Value;
+        }
+        private object get_16_ViewModelBase_NavigationService(object instance)
         {
             var that = (global::Template10.Mvvm.ViewModelBase)instance;
             return that.NavigationService;
         }
-        private void set_15_ViewModelBase_NavigationService(object instance, object Value)
+        private void set_16_ViewModelBase_NavigationService(object instance, object Value)
         {
             var that = (global::Template10.Mvvm.ViewModelBase)instance;
             that.NavigationService = (global::Template10.Services.NavigationService.INavigationService)Value;
         }
-        private object get_16_ViewModelBase_Dispatcher(object instance)
+        private object get_17_ViewModelBase_Dispatcher(object instance)
         {
             var that = (global::Template10.Mvvm.ViewModelBase)instance;
             return that.Dispatcher;
         }
-        private void set_16_ViewModelBase_Dispatcher(object instance, object Value)
+        private void set_17_ViewModelBase_Dispatcher(object instance, object Value)
         {
             var that = (global::Template10.Mvvm.ViewModelBase)instance;
             that.Dispatcher = (global::Template10.Common.IDispatcherWrapper)Value;
         }
-        private object get_17_ViewModelBase_SessionState(object instance)
+        private object get_18_ViewModelBase_SessionState(object instance)
         {
             var that = (global::Template10.Mvvm.ViewModelBase)instance;
             return that.SessionState;
         }
-        private void set_17_ViewModelBase_SessionState(object instance, object Value)
+        private void set_18_ViewModelBase_SessionState(object instance, object Value)
         {
             var that = (global::Template10.Mvvm.ViewModelBase)instance;
             that.SessionState = (global::Template10.Common.IStateItems)Value;
         }
-        private object get_18_PageHeader_Frame(object instance)
+        private object get_19_PageHeader_Frame(object instance)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             return that.Frame;
         }
-        private void set_18_PageHeader_Frame(object instance, object Value)
+        private void set_19_PageHeader_Frame(object instance, object Value)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             that.Frame = (global::Windows.UI.Xaml.Controls.Frame)Value;
         }
-        private object get_19_PageHeader_Text(object instance)
+        private object get_20_PageHeader_Text(object instance)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             return that.Text;
         }
-        private void set_19_PageHeader_Text(object instance, object Value)
+        private void set_20_PageHeader_Text(object instance, object Value)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             that.Text = (global::System.String)Value;
         }
-        private object get_20_PageHeader_EllipsisVisibility(object instance)
+        private object get_21_PageHeader_EllipsisVisibility(object instance)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             return that.EllipsisVisibility;
         }
-        private void set_20_PageHeader_EllipsisVisibility(object instance, object Value)
+        private void set_21_PageHeader_EllipsisVisibility(object instance, object Value)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             that.EllipsisVisibility = (global::Template10.Behaviors.EllipsisBehavior.Visibilities)Value;
         }
-        private object get_21_PageHeader_PrimaryCommandsVisibility(object instance)
+        private object get_22_PageHeader_PrimaryCommandsVisibility(object instance)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             return that.PrimaryCommandsVisibility;
         }
-        private void set_21_PageHeader_PrimaryCommandsVisibility(object instance, object Value)
+        private void set_22_PageHeader_PrimaryCommandsVisibility(object instance, object Value)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             that.PrimaryCommandsVisibility = (global::Windows.UI.Xaml.Visibility)Value;
         }
-        private object get_22_PageHeader_BackButtonVisibility(object instance)
+        private object get_23_PageHeader_BackButtonVisibility(object instance)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             return that.BackButtonVisibility;
         }
-        private void set_22_PageHeader_BackButtonVisibility(object instance, object Value)
+        private void set_23_PageHeader_BackButtonVisibility(object instance, object Value)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             that.BackButtonVisibility = (global::Windows.UI.Xaml.Visibility)Value;
         }
-        private object get_23_PageHeader_BackButtonContent(object instance)
+        private object get_24_PageHeader_BackButtonContent(object instance)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             return that.BackButtonContent;
         }
-        private void set_23_PageHeader_BackButtonContent(object instance, object Value)
+        private void set_24_PageHeader_BackButtonContent(object instance, object Value)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             that.BackButtonContent = (global::Windows.UI.Xaml.Controls.Symbol)Value;
         }
-        private object get_24_PageHeader_EnableHamburgerMenuAutoLayout(object instance)
+        private object get_25_PageHeader_EnableHamburgerMenuAutoLayout(object instance)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             return that.EnableHamburgerMenuAutoLayout;
         }
-        private void set_24_PageHeader_EnableHamburgerMenuAutoLayout(object instance, object Value)
+        private void set_25_PageHeader_EnableHamburgerMenuAutoLayout(object instance, object Value)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             that.EnableHamburgerMenuAutoLayout = (global::System.Boolean)Value;
         }
-        private object get_25_PageHeader_VisualStateNarrowMinWidth(object instance)
+        private object get_26_PageHeader_VisualStateNarrowMinWidth(object instance)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             return that.VisualStateNarrowMinWidth;
         }
-        private void set_25_PageHeader_VisualStateNarrowMinWidth(object instance, object Value)
+        private void set_26_PageHeader_VisualStateNarrowMinWidth(object instance, object Value)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             that.VisualStateNarrowMinWidth = (global::System.Double)Value;
         }
-        private object get_26_PageHeader_VisualStateNormalMinWidth(object instance)
+        private object get_27_PageHeader_VisualStateNormalMinWidth(object instance)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             return that.VisualStateNormalMinWidth;
         }
-        private void set_26_PageHeader_VisualStateNormalMinWidth(object instance, object Value)
+        private void set_27_PageHeader_VisualStateNormalMinWidth(object instance, object Value)
         {
             var that = (global::Template10.Controls.PageHeader)instance;
             that.VisualStateNormalMinWidth = (global::System.Double)Value;
         }
-        private object get_27_Color_A(object instance)
+        private object get_28_Color_A(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.A;
         }
-        private void set_27_Color_A(object instance, object Value)
+        private void set_28_Color_A(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.A = (global::System.Byte)Value;
         }
-        private object get_28_Color_B(object instance)
+        private object get_29_Color_B(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.B;
         }
-        private void set_28_Color_B(object instance, object Value)
+        private void set_29_Color_B(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.B = (global::System.Byte)Value;
         }
-        private object get_29_Color_G(object instance)
+        private object get_30_Color_G(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.G;
         }
-        private void set_29_Color_G(object instance, object Value)
+        private void set_30_Color_G(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.G = (global::System.Byte)Value;
         }
-        private object get_30_Color_R(object instance)
+        private object get_31_Color_R(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.R;
         }
-        private void set_30_Color_R(object instance, object Value)
+        private void set_31_Color_R(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.R = (global::System.Byte)Value;
         }
-        private object get_31_HamburgerMenu_PrimaryButtons(object instance)
+        private object get_32_HamburgerMenu_PrimaryButtons(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.PrimaryButtons;
         }
-        private void set_31_HamburgerMenu_PrimaryButtons(object instance, object Value)
+        private void set_32_HamburgerMenu_PrimaryButtons(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.PrimaryButtons = (global::System.Collections.ObjectModel.ObservableCollection<global::Template10.Controls.HamburgerButtonInfo>)Value;
         }
-        private object get_32_HamburgerButtonInfo_Content(object instance)
+        private object get_33_HamburgerButtonInfo_Content(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.Content;
         }
-        private void set_32_HamburgerButtonInfo_Content(object instance, object Value)
+        private void set_33_HamburgerButtonInfo_Content(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.Content = (global::Windows.UI.Xaml.UIElement)Value;
         }
-        private object get_33_HamburgerButtonInfo_ButtonType(object instance)
+        private object get_34_HamburgerButtonInfo_ButtonType(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.ButtonType;
         }
-        private void set_33_HamburgerButtonInfo_ButtonType(object instance, object Value)
+        private void set_34_HamburgerButtonInfo_ButtonType(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.ButtonType = (global::Template10.Controls.HamburgerButtonInfo.ButtonTypes)Value;
         }
-        private object get_34_HamburgerButtonInfo_NavigationTransitionInfo(object instance)
+        private object get_35_HamburgerButtonInfo_NavigationTransitionInfo(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.NavigationTransitionInfo;
         }
-        private void set_34_HamburgerButtonInfo_NavigationTransitionInfo(object instance, object Value)
+        private void set_35_HamburgerButtonInfo_NavigationTransitionInfo(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.NavigationTransitionInfo = (global::Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo)Value;
         }
-        private object get_35_HamburgerButtonInfo_Command(object instance)
+        private object get_36_HamburgerButtonInfo_Command(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.Command;
         }
-        private void set_35_HamburgerButtonInfo_Command(object instance, object Value)
+        private void set_36_HamburgerButtonInfo_Command(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.Command = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_36_HamburgerButtonInfo_ToolTip(object instance)
+        private object get_37_HamburgerButtonInfo_ToolTip(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.ToolTip;
         }
-        private void set_36_HamburgerButtonInfo_ToolTip(object instance, object Value)
+        private void set_37_HamburgerButtonInfo_ToolTip(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.ToolTip = (global::System.Object)Value;
         }
-        private object get_37_HamburgerButtonInfo_CommandParameter(object instance)
+        private object get_38_HamburgerButtonInfo_CommandParameter(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.CommandParameter;
         }
-        private void set_37_HamburgerButtonInfo_CommandParameter(object instance, object Value)
+        private void set_38_HamburgerButtonInfo_CommandParameter(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.CommandParameter = (global::System.Object)Value;
         }
-        private object get_38_HamburgerButtonInfo_GroupName(object instance)
+        private object get_39_HamburgerButtonInfo_GroupName(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.GroupName;
         }
-        private void set_38_HamburgerButtonInfo_GroupName(object instance, object Value)
+        private void set_39_HamburgerButtonInfo_GroupName(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.GroupName = (global::System.Object)Value;
         }
-        private object get_39_HamburgerButtonInfo_PageType(object instance)
+        private object get_40_HamburgerButtonInfo_PageType(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.PageType;
         }
-        private void set_39_HamburgerButtonInfo_PageType(object instance, object Value)
+        private void set_40_HamburgerButtonInfo_PageType(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.PageType = (global::System.Type)Value;
         }
-        private object get_40_HamburgerButtonInfo_PageParameter(object instance)
+        private object get_41_HamburgerButtonInfo_PageParameter(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.PageParameter;
         }
-        private void set_40_HamburgerButtonInfo_PageParameter(object instance, object Value)
+        private void set_41_HamburgerButtonInfo_PageParameter(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.PageParameter = (global::System.Object)Value;
         }
-        private object get_41_HamburgerButtonInfo_ClearHistory(object instance)
+        private object get_42_HamburgerButtonInfo_ClearHistory(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.ClearHistory;
         }
-        private void set_41_HamburgerButtonInfo_ClearHistory(object instance, object Value)
+        private void set_42_HamburgerButtonInfo_ClearHistory(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.ClearHistory = (global::System.Boolean)Value;
         }
-        private object get_42_HamburgerButtonInfo_ClearCache(object instance)
+        private object get_43_HamburgerButtonInfo_ClearCache(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.ClearCache;
         }
-        private void set_42_HamburgerButtonInfo_ClearCache(object instance, object Value)
+        private void set_43_HamburgerButtonInfo_ClearCache(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.ClearCache = (global::System.Boolean)Value;
         }
-        private object get_43_HamburgerButtonInfo_Visibility(object instance)
+        private object get_44_HamburgerButtonInfo_Visibility(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.Visibility;
         }
-        private void set_43_HamburgerButtonInfo_Visibility(object instance, object Value)
+        private void set_44_HamburgerButtonInfo_Visibility(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.Visibility = (global::Windows.UI.Xaml.Visibility)Value;
         }
-        private object get_44_HamburgerButtonInfo_IsEnabled(object instance)
+        private object get_45_HamburgerButtonInfo_IsEnabled(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.IsEnabled;
         }
-        private void set_44_HamburgerButtonInfo_IsEnabled(object instance, object Value)
+        private void set_45_HamburgerButtonInfo_IsEnabled(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.IsEnabled = (global::System.Boolean)Value;
         }
-        private object get_45_HamburgerButtonInfo_IsChecked(object instance)
+        private object get_46_HamburgerButtonInfo_IsChecked(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.IsChecked;
         }
-        private void set_45_HamburgerButtonInfo_IsChecked(object instance, object Value)
+        private void set_46_HamburgerButtonInfo_IsChecked(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.IsChecked = (global::System.Nullable<global::System.Boolean>)Value;
         }
-        private object get_46_HamburgerButtonInfo_MaxWidth(object instance)
+        private object get_47_HamburgerButtonInfo_MaxWidth(object instance)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             return that.MaxWidth;
         }
-        private void set_46_HamburgerButtonInfo_MaxWidth(object instance, object Value)
+        private void set_47_HamburgerButtonInfo_MaxWidth(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerButtonInfo)instance;
             that.MaxWidth = (global::System.Double)Value;
         }
-        private object get_47_HamburgerMenu_PaneBorderThickness(object instance)
+        private object get_48_HamburgerMenu_PaneBorderThickness(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.PaneBorderThickness;
         }
-        private void set_47_HamburgerMenu_PaneBorderThickness(object instance, object Value)
+        private void set_48_HamburgerMenu_PaneBorderThickness(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.PaneBorderThickness = (global::Windows.UI.Xaml.Thickness)Value;
         }
-        private object get_48_HamburgerMenu_SecondarySeparator(object instance)
+        private object get_49_HamburgerMenu_SecondarySeparator(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.SecondarySeparator;
         }
-        private void set_48_HamburgerMenu_SecondarySeparator(object instance, object Value)
+        private void set_49_HamburgerMenu_SecondarySeparator(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.SecondarySeparator = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_49_HamburgerMenu_NavButtonBackground(object instance)
+        private object get_50_HamburgerMenu_NavButtonBackground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavButtonBackground;
         }
-        private void set_49_HamburgerMenu_NavButtonBackground(object instance, object Value)
+        private void set_50_HamburgerMenu_NavButtonBackground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavButtonBackground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_50_HamburgerMenu_NavButtonForeground(object instance)
+        private object get_51_HamburgerMenu_NavButtonForeground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavButtonForeground;
         }
-        private void set_50_HamburgerMenu_NavButtonForeground(object instance, object Value)
+        private void set_51_HamburgerMenu_NavButtonForeground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavButtonForeground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_51_HamburgerMenu_NavAreaBackground(object instance)
+        private object get_52_HamburgerMenu_NavAreaBackground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavAreaBackground;
         }
-        private void set_51_HamburgerMenu_NavAreaBackground(object instance, object Value)
+        private void set_52_HamburgerMenu_NavAreaBackground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavAreaBackground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_52_HamburgerMenu_HamburgerForeground(object instance)
+        private object get_53_HamburgerMenu_HamburgerForeground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.HamburgerForeground;
         }
-        private void set_52_HamburgerMenu_HamburgerForeground(object instance, object Value)
+        private void set_53_HamburgerMenu_HamburgerForeground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.HamburgerForeground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_53_HamburgerMenu_HamburgerBackground(object instance)
+        private object get_54_HamburgerMenu_HamburgerBackground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.HamburgerBackground;
         }
-        private void set_53_HamburgerMenu_HamburgerBackground(object instance, object Value)
+        private void set_54_HamburgerMenu_HamburgerBackground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.HamburgerBackground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_54_HamburgerMenu_VisualStateNarrowMinWidth(object instance)
+        private object get_55_HamburgerMenu_VisualStateNarrowMinWidth(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.VisualStateNarrowMinWidth;
         }
-        private void set_54_HamburgerMenu_VisualStateNarrowMinWidth(object instance, object Value)
+        private void set_55_HamburgerMenu_VisualStateNarrowMinWidth(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.VisualStateNarrowMinWidth = (global::System.Double)Value;
         }
-        private object get_55_HamburgerMenu_VisualStateNormalMinWidth(object instance)
+        private object get_56_HamburgerMenu_VisualStateNormalMinWidth(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.VisualStateNormalMinWidth;
         }
-        private void set_55_HamburgerMenu_VisualStateNormalMinWidth(object instance, object Value)
+        private void set_56_HamburgerMenu_VisualStateNormalMinWidth(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.VisualStateNormalMinWidth = (global::System.Double)Value;
         }
-        private object get_56_HamburgerMenu_VisualStateWideMinWidth(object instance)
+        private object get_57_HamburgerMenu_VisualStateWideMinWidth(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.VisualStateWideMinWidth;
         }
-        private void set_56_HamburgerMenu_VisualStateWideMinWidth(object instance, object Value)
+        private void set_57_HamburgerMenu_VisualStateWideMinWidth(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.VisualStateWideMinWidth = (global::System.Double)Value;
         }
-        private object get_57_HamburgerMenu_AccentColor(object instance)
+        private object get_58_HamburgerMenu_AccentColor(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.AccentColor;
         }
-        private void set_57_HamburgerMenu_AccentColor(object instance, object Value)
+        private void set_58_HamburgerMenu_AccentColor(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.AccentColor = (global::Windows.UI.Color)Value;
         }
-        private object get_58_HamburgerMenu_PaneBorderBrush(object instance)
+        private object get_59_HamburgerMenu_PaneBorderBrush(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.PaneBorderBrush;
         }
-        private void set_58_HamburgerMenu_PaneBorderBrush(object instance, object Value)
+        private void set_59_HamburgerMenu_PaneBorderBrush(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.PaneBorderBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_59_HamburgerMenu_NavButtonCheckedForeground(object instance)
+        private object get_60_HamburgerMenu_NavButtonCheckedForeground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavButtonCheckedForeground;
         }
-        private void set_59_HamburgerMenu_NavButtonCheckedForeground(object instance, object Value)
+        private void set_60_HamburgerMenu_NavButtonCheckedForeground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavButtonCheckedForeground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_60_HamburgerMenu_NavButtonCheckedBackground(object instance)
+        private object get_61_HamburgerMenu_NavButtonCheckedBackground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavButtonCheckedBackground;
         }
-        private void set_60_HamburgerMenu_NavButtonCheckedBackground(object instance, object Value)
+        private void set_61_HamburgerMenu_NavButtonCheckedBackground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavButtonCheckedBackground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_61_HamburgerMenu_NavButtonCheckedIndicatorBrush(object instance)
+        private object get_62_HamburgerMenu_NavButtonCheckedIndicatorBrush(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavButtonCheckedIndicatorBrush;
         }
-        private void set_61_HamburgerMenu_NavButtonCheckedIndicatorBrush(object instance, object Value)
+        private void set_62_HamburgerMenu_NavButtonCheckedIndicatorBrush(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavButtonCheckedIndicatorBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_62_HamburgerMenu_NavButtonPressedForeground(object instance)
+        private object get_63_HamburgerMenu_NavButtonPressedForeground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavButtonPressedForeground;
         }
-        private void set_62_HamburgerMenu_NavButtonPressedForeground(object instance, object Value)
+        private void set_63_HamburgerMenu_NavButtonPressedForeground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavButtonPressedForeground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_63_HamburgerMenu_NavButtonPressedBackground(object instance)
+        private object get_64_HamburgerMenu_NavButtonPressedBackground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavButtonPressedBackground;
         }
-        private void set_63_HamburgerMenu_NavButtonPressedBackground(object instance, object Value)
+        private void set_64_HamburgerMenu_NavButtonPressedBackground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavButtonPressedBackground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_64_HamburgerMenu_NavButtonHoverForeground(object instance)
+        private object get_65_HamburgerMenu_NavButtonHoverForeground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavButtonHoverForeground;
         }
-        private void set_64_HamburgerMenu_NavButtonHoverForeground(object instance, object Value)
+        private void set_65_HamburgerMenu_NavButtonHoverForeground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavButtonHoverForeground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_65_HamburgerMenu_NavButtonHoverBackground(object instance)
+        private object get_66_HamburgerMenu_NavButtonHoverBackground(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavButtonHoverBackground;
         }
-        private void set_65_HamburgerMenu_NavButtonHoverBackground(object instance, object Value)
+        private void set_66_HamburgerMenu_NavButtonHoverBackground(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavButtonHoverBackground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_66_HamburgerMenu_HamburgerButtonVisibility(object instance)
+        private object get_67_HamburgerMenu_HamburgerButtonVisibility(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.HamburgerButtonVisibility;
         }
-        private void set_66_HamburgerMenu_HamburgerButtonVisibility(object instance, object Value)
+        private void set_67_HamburgerMenu_HamburgerButtonVisibility(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.HamburgerButtonVisibility = (global::Windows.UI.Xaml.Visibility)Value;
         }
-        private object get_67_HamburgerMenu_DisplayMode(object instance)
+        private object get_68_HamburgerMenu_DisplayMode(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.DisplayMode;
         }
-        private void set_67_HamburgerMenu_DisplayMode(object instance, object Value)
+        private void set_68_HamburgerMenu_DisplayMode(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.DisplayMode = (global::Windows.UI.Xaml.Controls.SplitViewDisplayMode)Value;
         }
-        private object get_68_HamburgerMenu_VisualStateNarrowDisplayMode(object instance)
+        private object get_69_HamburgerMenu_VisualStateNarrowDisplayMode(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.VisualStateNarrowDisplayMode;
         }
-        private void set_68_HamburgerMenu_VisualStateNarrowDisplayMode(object instance, object Value)
+        private void set_69_HamburgerMenu_VisualStateNarrowDisplayMode(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.VisualStateNarrowDisplayMode = (global::Windows.UI.Xaml.Controls.SplitViewDisplayMode)Value;
         }
-        private object get_69_HamburgerMenu_VisualStateNormalDisplayMode(object instance)
+        private object get_70_HamburgerMenu_VisualStateNormalDisplayMode(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.VisualStateNormalDisplayMode;
         }
-        private void set_69_HamburgerMenu_VisualStateNormalDisplayMode(object instance, object Value)
+        private void set_70_HamburgerMenu_VisualStateNormalDisplayMode(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.VisualStateNormalDisplayMode = (global::Windows.UI.Xaml.Controls.SplitViewDisplayMode)Value;
         }
-        private object get_70_HamburgerMenu_VisualStateWideDisplayMode(object instance)
+        private object get_71_HamburgerMenu_VisualStateWideDisplayMode(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.VisualStateWideDisplayMode;
         }
-        private void set_70_HamburgerMenu_VisualStateWideDisplayMode(object instance, object Value)
+        private void set_71_HamburgerMenu_VisualStateWideDisplayMode(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.VisualStateWideDisplayMode = (global::Windows.UI.Xaml.Controls.SplitViewDisplayMode)Value;
         }
-        private object get_71_HamburgerMenu_SecondaryButtonOrientation(object instance)
+        private object get_72_HamburgerMenu_SecondaryButtonOrientation(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.SecondaryButtonOrientation;
         }
-        private void set_71_HamburgerMenu_SecondaryButtonOrientation(object instance, object Value)
+        private void set_72_HamburgerMenu_SecondaryButtonOrientation(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.SecondaryButtonOrientation = (global::Windows.UI.Xaml.Controls.Orientation)Value;
         }
-        private object get_72_HamburgerMenu_Selected(object instance)
+        private object get_73_HamburgerMenu_Selected(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.Selected;
         }
-        private void set_72_HamburgerMenu_Selected(object instance, object Value)
+        private void set_73_HamburgerMenu_Selected(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.Selected = (global::Template10.Controls.HamburgerButtonInfo)Value;
         }
-        private object get_73_HamburgerMenu_NavigationService(object instance)
+        private object get_74_HamburgerMenu_NavigationService(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavigationService;
         }
-        private void set_73_HamburgerMenu_NavigationService(object instance, object Value)
+        private void set_74_HamburgerMenu_NavigationService(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.NavigationService = (global::Template10.Services.NavigationService.INavigationService)Value;
         }
-        private object get_74_HamburgerMenu_IsFullScreen(object instance)
+        private object get_75_HamburgerMenu_IsFullScreen(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.IsFullScreen;
         }
-        private void set_74_HamburgerMenu_IsFullScreen(object instance, object Value)
+        private void set_75_HamburgerMenu_IsFullScreen(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.IsFullScreen = (global::System.Boolean)Value;
         }
-        private object get_75_HamburgerMenu_PaneWidth(object instance)
+        private object get_76_HamburgerMenu_PaneWidth(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.PaneWidth;
         }
-        private void set_75_HamburgerMenu_PaneWidth(object instance, object Value)
+        private void set_76_HamburgerMenu_PaneWidth(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.PaneWidth = (global::System.Double)Value;
         }
-        private object get_76_HamburgerMenu_HamburgerButtonGridWidth(object instance)
+        private object get_77_HamburgerMenu_HamburgerButtonGridWidth(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.HamburgerButtonGridWidth;
         }
-        private void set_76_HamburgerMenu_HamburgerButtonGridWidth(object instance, object Value)
+        private void set_77_HamburgerMenu_HamburgerButtonGridWidth(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.HamburgerButtonGridWidth = (global::System.Double)Value;
         }
-        private object get_77_HamburgerMenu_OpenCloseMode(object instance)
+        private object get_78_HamburgerMenu_OpenCloseMode(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.OpenCloseMode;
         }
-        private void set_77_HamburgerMenu_OpenCloseMode(object instance, object Value)
+        private void set_78_HamburgerMenu_OpenCloseMode(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.OpenCloseMode = (global::Template10.Controls.HamburgerMenu.OpenCloseModes)Value;
         }
-        private object get_78_HamburgerMenu_HeaderContent(object instance)
+        private object get_79_HamburgerMenu_HeaderContent(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.HeaderContent;
         }
-        private void set_78_HamburgerMenu_HeaderContent(object instance, object Value)
+        private void set_79_HamburgerMenu_HeaderContent(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.HeaderContent = (global::Windows.UI.Xaml.UIElement)Value;
         }
-        private object get_79_HamburgerMenu_IsOpen(object instance)
+        private object get_80_HamburgerMenu_IsOpen(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.IsOpen;
         }
-        private void set_79_HamburgerMenu_IsOpen(object instance, object Value)
+        private void set_80_HamburgerMenu_IsOpen(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.IsOpen = (global::System.Boolean)Value;
         }
-        private object get_80_HamburgerMenu_SecondaryButtons(object instance)
+        private object get_81_HamburgerMenu_SecondaryButtons(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.SecondaryButtons;
         }
-        private void set_80_HamburgerMenu_SecondaryButtons(object instance, object Value)
+        private void set_81_HamburgerMenu_SecondaryButtons(object instance, object Value)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             that.SecondaryButtons = (global::System.Collections.ObjectModel.ObservableCollection<global::Template10.Controls.HamburgerButtonInfo>)Value;
         }
-        private object get_81_HamburgerMenu_NavCommand(object instance)
+        private object get_82_HamburgerMenu_NavCommand(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.NavCommand;
         }
-        private object get_82_HamburgerMenu_PropertyChangedHandlers(object instance)
+        private object get_83_HamburgerMenu_PropertyChangedHandlers(object instance)
         {
             var that = (global::Template10.Controls.HamburgerMenu)instance;
             return that.PropertyChangedHandlers;
         }
-        private object get_83_Resizer_ElementControl(object instance)
+        private object get_84_Resizer_ElementControl(object instance)
         {
             var that = (global::Template10.Controls.Resizer)instance;
             return that.ElementControl;
         }
-        private void set_83_Resizer_ElementControl(object instance, object Value)
+        private void set_84_Resizer_ElementControl(object instance, object Value)
         {
             var that = (global::Template10.Controls.Resizer)instance;
             that.ElementControl = (global::Windows.UI.Xaml.Controls.Control)Value;
         }
-        private object get_84_Resizer_GrabberBrush(object instance)
+        private object get_85_Resizer_GrabberBrush(object instance)
         {
             var that = (global::Template10.Controls.Resizer)instance;
             return that.GrabberBrush;
         }
-        private void set_84_Resizer_GrabberBrush(object instance, object Value)
+        private void set_85_Resizer_GrabberBrush(object instance, object Value)
         {
             var that = (global::Template10.Controls.Resizer)instance;
             that.GrabberBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_85_Resizer_GrabberVisibility(object instance)
+        private object get_86_Resizer_GrabberVisibility(object instance)
         {
             var that = (global::Template10.Controls.Resizer)instance;
             return that.GrabberVisibility;
         }
-        private void set_85_Resizer_GrabberVisibility(object instance, object Value)
+        private void set_86_Resizer_GrabberVisibility(object instance, object Value)
         {
             var that = (global::Template10.Controls.Resizer)instance;
             that.GrabberVisibility = (global::Windows.UI.Xaml.Visibility)Value;
         }
-        private object get_86_Resizer_GrabberSize(object instance)
+        private object get_87_Resizer_GrabberSize(object instance)
         {
             var that = (global::Template10.Controls.Resizer)instance;
             return that.GrabberSize;
         }
-        private void set_86_Resizer_GrabberSize(object instance, object Value)
+        private void set_87_Resizer_GrabberSize(object instance, object Value)
         {
             var that = (global::Template10.Controls.Resizer)instance;
             that.GrabberSize = (global::Windows.Foundation.Size)Value;
         }
-        private object get_87_Busy_BusyText(object instance)
+        private object get_88_Busy_BusyText(object instance)
         {
             var that = (global::Event.Views.Busy)instance;
             return that.BusyText;
         }
-        private void set_87_Busy_BusyText(object instance, object Value)
+        private void set_88_Busy_BusyText(object instance, object Value)
         {
             var that = (global::Event.Views.Busy)instance;
             that.BusyText = (global::System.String)Value;
         }
-        private object get_88_Busy_IsBusy(object instance)
+        private object get_89_Busy_IsBusy(object instance)
         {
             var that = (global::Event.Views.Busy)instance;
             return that.IsBusy;
         }
-        private void set_88_Busy_IsBusy(object instance, object Value)
+        private void set_89_Busy_IsBusy(object instance, object Value)
         {
             var that = (global::Event.Views.Busy)instance;
             that.IsBusy = (global::System.Boolean)Value;
         }
-        private object get_89_MesseInfo_Messe(object instance)
+        private object get_90_Location_messe(object instance)
+        {
+            var that = (global::Event.Views.Location)instance;
+            return that.messe;
+        }
+        private void set_90_Location_messe(object instance, object Value)
+        {
+            var that = (global::Event.Views.Location)instance;
+            that.messe = (global::Event.Models.Here)Value;
+        }
+        private object get_91_MesseInfo_Messe(object instance)
         {
             var that = (global::Event.Views.MesseInfo)instance;
             return that.Messe;
         }
-        private void set_89_MesseInfo_Messe(object instance, object Value)
+        private void set_91_MesseInfo_Messe(object instance, object Value)
         {
             var that = (global::Event.Views.MesseInfo)instance;
             that.Messe = (global::Event.Models.Messe)Value;
-        }
-        private object get_90_MainPageViewModel_Header(object instance)
-        {
-            var that = (global::Event.ViewModels.MainPageViewModel)instance;
-            return that.Header;
-        }
-        private void set_90_MainPageViewModel_Header(object instance, object Value)
-        {
-            var that = (global::Event.ViewModels.MainPageViewModel)instance;
-            that.Header = (global::System.String)Value;
-        }
-        private object get_91_MainPageViewModel_header(object instance)
-        {
-            var that = (global::Event.ViewModels.MainPageViewModel)instance;
-            return that.header;
-        }
-        private void set_91_MainPageViewModel_header(object instance, object Value)
-        {
-            var that = (global::Event.ViewModels.MainPageViewModel)instance;
-            that.header = (global::System.String)Value;
         }
         private object get_92_MainPageViewModel_Value(object instance)
         {
@@ -2006,15 +2016,15 @@ namespace Event.Event_XamlTypeInfo
             var that = (global::Event.ViewModels.MainPageViewModel)instance;
             that.Value = (global::System.String)Value;
         }
-        private object get_93_MainPage_header(object instance)
+        private object get_93_MainPageViewModel_myMesse(object instance)
         {
-            var that = (global::Event.Views.MainPage)instance;
-            return that.header;
+            var that = (global::Event.ViewModels.MainPageViewModel)instance;
+            return that.myMesse;
         }
-        private void set_93_MainPage_header(object instance, object Value)
+        private void set_93_MainPageViewModel_myMesse(object instance, object Value)
         {
-            var that = (global::Event.Views.MainPage)instance;
-            that.header = (global::System.String)Value;
+            var that = (global::Event.ViewModels.MainPageViewModel)instance;
+            that.myMesse = (global::Event.Models.Here)Value;
         }
         private object get_94_SettingsPageViewModel_SettingsPartViewModel(object instance)
         {
@@ -2242,532 +2252,532 @@ namespace Event.Event_XamlTypeInfo
                 xamlMember.Getter = get_14_DetailPageViewModel_Value;
                 xamlMember.Setter = set_14_DetailPageViewModel_Value;
                 break;
+            case "Event.ViewModels.DetailPageViewModel.selectmesse":
+                userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.ViewModels.DetailPageViewModel");
+                xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "selectmesse", "Event.Models.Here");
+                xamlMember.Getter = get_15_DetailPageViewModel_selectmesse;
+                xamlMember.Setter = set_15_DetailPageViewModel_selectmesse;
+                break;
             case "Template10.Mvvm.ViewModelBase.NavigationService":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Mvvm.ViewModelBase");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavigationService", "Template10.Services.NavigationService.INavigationService");
-                xamlMember.Getter = get_15_ViewModelBase_NavigationService;
-                xamlMember.Setter = set_15_ViewModelBase_NavigationService;
+                xamlMember.Getter = get_16_ViewModelBase_NavigationService;
+                xamlMember.Setter = set_16_ViewModelBase_NavigationService;
                 break;
             case "Template10.Mvvm.ViewModelBase.Dispatcher":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Mvvm.ViewModelBase");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "Dispatcher", "Template10.Common.IDispatcherWrapper");
-                xamlMember.Getter = get_16_ViewModelBase_Dispatcher;
-                xamlMember.Setter = set_16_ViewModelBase_Dispatcher;
+                xamlMember.Getter = get_17_ViewModelBase_Dispatcher;
+                xamlMember.Setter = set_17_ViewModelBase_Dispatcher;
                 break;
             case "Template10.Mvvm.ViewModelBase.SessionState":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Mvvm.ViewModelBase");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "SessionState", "Template10.Common.IStateItems");
-                xamlMember.Getter = get_17_ViewModelBase_SessionState;
-                xamlMember.Setter = set_17_ViewModelBase_SessionState;
+                xamlMember.Getter = get_18_ViewModelBase_SessionState;
+                xamlMember.Setter = set_18_ViewModelBase_SessionState;
                 break;
             case "Template10.Controls.PageHeader.Frame":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.PageHeader");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "Frame", "Windows.UI.Xaml.Controls.Frame");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_18_PageHeader_Frame;
-                xamlMember.Setter = set_18_PageHeader_Frame;
+                xamlMember.Getter = get_19_PageHeader_Frame;
+                xamlMember.Setter = set_19_PageHeader_Frame;
                 break;
             case "Template10.Controls.PageHeader.Text":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.PageHeader");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "Text", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_19_PageHeader_Text;
-                xamlMember.Setter = set_19_PageHeader_Text;
+                xamlMember.Getter = get_20_PageHeader_Text;
+                xamlMember.Setter = set_20_PageHeader_Text;
                 break;
             case "Template10.Controls.PageHeader.EllipsisVisibility":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.PageHeader");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "EllipsisVisibility", "Template10.Behaviors.EllipsisBehavior.Visibilities");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_PageHeader_EllipsisVisibility;
-                xamlMember.Setter = set_20_PageHeader_EllipsisVisibility;
+                xamlMember.Getter = get_21_PageHeader_EllipsisVisibility;
+                xamlMember.Setter = set_21_PageHeader_EllipsisVisibility;
                 break;
             case "Template10.Controls.PageHeader.PrimaryCommandsVisibility":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.PageHeader");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "PrimaryCommandsVisibility", "Windows.UI.Xaml.Visibility");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_21_PageHeader_PrimaryCommandsVisibility;
-                xamlMember.Setter = set_21_PageHeader_PrimaryCommandsVisibility;
+                xamlMember.Getter = get_22_PageHeader_PrimaryCommandsVisibility;
+                xamlMember.Setter = set_22_PageHeader_PrimaryCommandsVisibility;
                 break;
             case "Template10.Controls.PageHeader.BackButtonVisibility":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.PageHeader");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "BackButtonVisibility", "Windows.UI.Xaml.Visibility");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_PageHeader_BackButtonVisibility;
-                xamlMember.Setter = set_22_PageHeader_BackButtonVisibility;
+                xamlMember.Getter = get_23_PageHeader_BackButtonVisibility;
+                xamlMember.Setter = set_23_PageHeader_BackButtonVisibility;
                 break;
             case "Template10.Controls.PageHeader.BackButtonContent":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.PageHeader");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "BackButtonContent", "Windows.UI.Xaml.Controls.Symbol");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_23_PageHeader_BackButtonContent;
-                xamlMember.Setter = set_23_PageHeader_BackButtonContent;
+                xamlMember.Getter = get_24_PageHeader_BackButtonContent;
+                xamlMember.Setter = set_24_PageHeader_BackButtonContent;
                 break;
             case "Template10.Controls.PageHeader.EnableHamburgerMenuAutoLayout":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.PageHeader");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "EnableHamburgerMenuAutoLayout", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_24_PageHeader_EnableHamburgerMenuAutoLayout;
-                xamlMember.Setter = set_24_PageHeader_EnableHamburgerMenuAutoLayout;
+                xamlMember.Getter = get_25_PageHeader_EnableHamburgerMenuAutoLayout;
+                xamlMember.Setter = set_25_PageHeader_EnableHamburgerMenuAutoLayout;
                 break;
             case "Template10.Controls.PageHeader.VisualStateNarrowMinWidth":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.PageHeader");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "VisualStateNarrowMinWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_25_PageHeader_VisualStateNarrowMinWidth;
-                xamlMember.Setter = set_25_PageHeader_VisualStateNarrowMinWidth;
+                xamlMember.Getter = get_26_PageHeader_VisualStateNarrowMinWidth;
+                xamlMember.Setter = set_26_PageHeader_VisualStateNarrowMinWidth;
                 break;
             case "Template10.Controls.PageHeader.VisualStateNormalMinWidth":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.PageHeader");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "VisualStateNormalMinWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_26_PageHeader_VisualStateNormalMinWidth;
-                xamlMember.Setter = set_26_PageHeader_VisualStateNormalMinWidth;
+                xamlMember.Getter = get_27_PageHeader_VisualStateNormalMinWidth;
+                xamlMember.Setter = set_27_PageHeader_VisualStateNormalMinWidth;
                 break;
             case "Windows.UI.Color.A":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "A", "Byte");
-                xamlMember.Getter = get_27_Color_A;
-                xamlMember.Setter = set_27_Color_A;
+                xamlMember.Getter = get_28_Color_A;
+                xamlMember.Setter = set_28_Color_A;
                 break;
             case "Windows.UI.Color.B":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "B", "Byte");
-                xamlMember.Getter = get_28_Color_B;
-                xamlMember.Setter = set_28_Color_B;
+                xamlMember.Getter = get_29_Color_B;
+                xamlMember.Setter = set_29_Color_B;
                 break;
             case "Windows.UI.Color.G":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "G", "Byte");
-                xamlMember.Getter = get_29_Color_G;
-                xamlMember.Setter = set_29_Color_G;
+                xamlMember.Getter = get_30_Color_G;
+                xamlMember.Setter = set_30_Color_G;
                 break;
             case "Windows.UI.Color.R":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "R", "Byte");
-                xamlMember.Getter = get_30_Color_R;
-                xamlMember.Setter = set_30_Color_R;
+                xamlMember.Getter = get_31_Color_R;
+                xamlMember.Setter = set_31_Color_R;
                 break;
             case "Template10.Controls.HamburgerMenu.PrimaryButtons":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "PrimaryButtons", "System.Collections.ObjectModel.ObservableCollection`1<Template10.Controls.HamburgerButtonInfo>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_31_HamburgerMenu_PrimaryButtons;
-                xamlMember.Setter = set_31_HamburgerMenu_PrimaryButtons;
+                xamlMember.Getter = get_32_HamburgerMenu_PrimaryButtons;
+                xamlMember.Setter = set_32_HamburgerMenu_PrimaryButtons;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.Content":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "Content", "Windows.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_32_HamburgerButtonInfo_Content;
-                xamlMember.Setter = set_32_HamburgerButtonInfo_Content;
+                xamlMember.Getter = get_33_HamburgerButtonInfo_Content;
+                xamlMember.Setter = set_33_HamburgerButtonInfo_Content;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.ButtonType":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "ButtonType", "Template10.Controls.HamburgerButtonInfo.ButtonTypes");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_33_HamburgerButtonInfo_ButtonType;
-                xamlMember.Setter = set_33_HamburgerButtonInfo_ButtonType;
+                xamlMember.Getter = get_34_HamburgerButtonInfo_ButtonType;
+                xamlMember.Setter = set_34_HamburgerButtonInfo_ButtonType;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.NavigationTransitionInfo":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavigationTransitionInfo", "Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_34_HamburgerButtonInfo_NavigationTransitionInfo;
-                xamlMember.Setter = set_34_HamburgerButtonInfo_NavigationTransitionInfo;
+                xamlMember.Getter = get_35_HamburgerButtonInfo_NavigationTransitionInfo;
+                xamlMember.Setter = set_35_HamburgerButtonInfo_NavigationTransitionInfo;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.Command":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_35_HamburgerButtonInfo_Command;
-                xamlMember.Setter = set_35_HamburgerButtonInfo_Command;
+                xamlMember.Getter = get_36_HamburgerButtonInfo_Command;
+                xamlMember.Setter = set_36_HamburgerButtonInfo_Command;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.ToolTip":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "ToolTip", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_36_HamburgerButtonInfo_ToolTip;
-                xamlMember.Setter = set_36_HamburgerButtonInfo_ToolTip;
+                xamlMember.Getter = get_37_HamburgerButtonInfo_ToolTip;
+                xamlMember.Setter = set_37_HamburgerButtonInfo_ToolTip;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.CommandParameter":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_37_HamburgerButtonInfo_CommandParameter;
-                xamlMember.Setter = set_37_HamburgerButtonInfo_CommandParameter;
+                xamlMember.Getter = get_38_HamburgerButtonInfo_CommandParameter;
+                xamlMember.Setter = set_38_HamburgerButtonInfo_CommandParameter;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.GroupName":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "GroupName", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_38_HamburgerButtonInfo_GroupName;
-                xamlMember.Setter = set_38_HamburgerButtonInfo_GroupName;
+                xamlMember.Getter = get_39_HamburgerButtonInfo_GroupName;
+                xamlMember.Setter = set_39_HamburgerButtonInfo_GroupName;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.PageType":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "PageType", "System.Type");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_39_HamburgerButtonInfo_PageType;
-                xamlMember.Setter = set_39_HamburgerButtonInfo_PageType;
+                xamlMember.Getter = get_40_HamburgerButtonInfo_PageType;
+                xamlMember.Setter = set_40_HamburgerButtonInfo_PageType;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.PageParameter":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "PageParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_40_HamburgerButtonInfo_PageParameter;
-                xamlMember.Setter = set_40_HamburgerButtonInfo_PageParameter;
+                xamlMember.Getter = get_41_HamburgerButtonInfo_PageParameter;
+                xamlMember.Setter = set_41_HamburgerButtonInfo_PageParameter;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.ClearHistory":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "ClearHistory", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_41_HamburgerButtonInfo_ClearHistory;
-                xamlMember.Setter = set_41_HamburgerButtonInfo_ClearHistory;
+                xamlMember.Getter = get_42_HamburgerButtonInfo_ClearHistory;
+                xamlMember.Setter = set_42_HamburgerButtonInfo_ClearHistory;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.ClearCache":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "ClearCache", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_42_HamburgerButtonInfo_ClearCache;
-                xamlMember.Setter = set_42_HamburgerButtonInfo_ClearCache;
+                xamlMember.Getter = get_43_HamburgerButtonInfo_ClearCache;
+                xamlMember.Setter = set_43_HamburgerButtonInfo_ClearCache;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.Visibility":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "Visibility", "Windows.UI.Xaml.Visibility");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_43_HamburgerButtonInfo_Visibility;
-                xamlMember.Setter = set_43_HamburgerButtonInfo_Visibility;
+                xamlMember.Getter = get_44_HamburgerButtonInfo_Visibility;
+                xamlMember.Setter = set_44_HamburgerButtonInfo_Visibility;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.IsEnabled":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "IsEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_44_HamburgerButtonInfo_IsEnabled;
-                xamlMember.Setter = set_44_HamburgerButtonInfo_IsEnabled;
+                xamlMember.Getter = get_45_HamburgerButtonInfo_IsEnabled;
+                xamlMember.Setter = set_45_HamburgerButtonInfo_IsEnabled;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.IsChecked":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "IsChecked", "System.Nullable`1<Boolean>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_45_HamburgerButtonInfo_IsChecked;
-                xamlMember.Setter = set_45_HamburgerButtonInfo_IsChecked;
+                xamlMember.Getter = get_46_HamburgerButtonInfo_IsChecked;
+                xamlMember.Setter = set_46_HamburgerButtonInfo_IsChecked;
                 break;
             case "Template10.Controls.HamburgerButtonInfo.MaxWidth":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerButtonInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "MaxWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_46_HamburgerButtonInfo_MaxWidth;
-                xamlMember.Setter = set_46_HamburgerButtonInfo_MaxWidth;
+                xamlMember.Getter = get_47_HamburgerButtonInfo_MaxWidth;
+                xamlMember.Setter = set_47_HamburgerButtonInfo_MaxWidth;
                 break;
             case "Template10.Controls.HamburgerMenu.PaneBorderThickness":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "PaneBorderThickness", "Windows.UI.Xaml.Thickness");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_47_HamburgerMenu_PaneBorderThickness;
-                xamlMember.Setter = set_47_HamburgerMenu_PaneBorderThickness;
+                xamlMember.Getter = get_48_HamburgerMenu_PaneBorderThickness;
+                xamlMember.Setter = set_48_HamburgerMenu_PaneBorderThickness;
                 break;
             case "Template10.Controls.HamburgerMenu.SecondarySeparator":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "SecondarySeparator", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_48_HamburgerMenu_SecondarySeparator;
-                xamlMember.Setter = set_48_HamburgerMenu_SecondarySeparator;
+                xamlMember.Getter = get_49_HamburgerMenu_SecondarySeparator;
+                xamlMember.Setter = set_49_HamburgerMenu_SecondarySeparator;
                 break;
             case "Template10.Controls.HamburgerMenu.NavButtonBackground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavButtonBackground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_49_HamburgerMenu_NavButtonBackground;
-                xamlMember.Setter = set_49_HamburgerMenu_NavButtonBackground;
+                xamlMember.Getter = get_50_HamburgerMenu_NavButtonBackground;
+                xamlMember.Setter = set_50_HamburgerMenu_NavButtonBackground;
                 break;
             case "Template10.Controls.HamburgerMenu.NavButtonForeground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavButtonForeground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_50_HamburgerMenu_NavButtonForeground;
-                xamlMember.Setter = set_50_HamburgerMenu_NavButtonForeground;
+                xamlMember.Getter = get_51_HamburgerMenu_NavButtonForeground;
+                xamlMember.Setter = set_51_HamburgerMenu_NavButtonForeground;
                 break;
             case "Template10.Controls.HamburgerMenu.NavAreaBackground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavAreaBackground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_51_HamburgerMenu_NavAreaBackground;
-                xamlMember.Setter = set_51_HamburgerMenu_NavAreaBackground;
+                xamlMember.Getter = get_52_HamburgerMenu_NavAreaBackground;
+                xamlMember.Setter = set_52_HamburgerMenu_NavAreaBackground;
                 break;
             case "Template10.Controls.HamburgerMenu.HamburgerForeground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "HamburgerForeground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_52_HamburgerMenu_HamburgerForeground;
-                xamlMember.Setter = set_52_HamburgerMenu_HamburgerForeground;
+                xamlMember.Getter = get_53_HamburgerMenu_HamburgerForeground;
+                xamlMember.Setter = set_53_HamburgerMenu_HamburgerForeground;
                 break;
             case "Template10.Controls.HamburgerMenu.HamburgerBackground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "HamburgerBackground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_53_HamburgerMenu_HamburgerBackground;
-                xamlMember.Setter = set_53_HamburgerMenu_HamburgerBackground;
+                xamlMember.Getter = get_54_HamburgerMenu_HamburgerBackground;
+                xamlMember.Setter = set_54_HamburgerMenu_HamburgerBackground;
                 break;
             case "Template10.Controls.HamburgerMenu.VisualStateNarrowMinWidth":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "VisualStateNarrowMinWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_54_HamburgerMenu_VisualStateNarrowMinWidth;
-                xamlMember.Setter = set_54_HamburgerMenu_VisualStateNarrowMinWidth;
+                xamlMember.Getter = get_55_HamburgerMenu_VisualStateNarrowMinWidth;
+                xamlMember.Setter = set_55_HamburgerMenu_VisualStateNarrowMinWidth;
                 break;
             case "Template10.Controls.HamburgerMenu.VisualStateNormalMinWidth":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "VisualStateNormalMinWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_55_HamburgerMenu_VisualStateNormalMinWidth;
-                xamlMember.Setter = set_55_HamburgerMenu_VisualStateNormalMinWidth;
+                xamlMember.Getter = get_56_HamburgerMenu_VisualStateNormalMinWidth;
+                xamlMember.Setter = set_56_HamburgerMenu_VisualStateNormalMinWidth;
                 break;
             case "Template10.Controls.HamburgerMenu.VisualStateWideMinWidth":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "VisualStateWideMinWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_56_HamburgerMenu_VisualStateWideMinWidth;
-                xamlMember.Setter = set_56_HamburgerMenu_VisualStateWideMinWidth;
+                xamlMember.Getter = get_57_HamburgerMenu_VisualStateWideMinWidth;
+                xamlMember.Setter = set_57_HamburgerMenu_VisualStateWideMinWidth;
                 break;
             case "Template10.Controls.HamburgerMenu.AccentColor":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "AccentColor", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_57_HamburgerMenu_AccentColor;
-                xamlMember.Setter = set_57_HamburgerMenu_AccentColor;
+                xamlMember.Getter = get_58_HamburgerMenu_AccentColor;
+                xamlMember.Setter = set_58_HamburgerMenu_AccentColor;
                 break;
             case "Template10.Controls.HamburgerMenu.PaneBorderBrush":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "PaneBorderBrush", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_58_HamburgerMenu_PaneBorderBrush;
-                xamlMember.Setter = set_58_HamburgerMenu_PaneBorderBrush;
+                xamlMember.Getter = get_59_HamburgerMenu_PaneBorderBrush;
+                xamlMember.Setter = set_59_HamburgerMenu_PaneBorderBrush;
                 break;
             case "Template10.Controls.HamburgerMenu.NavButtonCheckedForeground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavButtonCheckedForeground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_59_HamburgerMenu_NavButtonCheckedForeground;
-                xamlMember.Setter = set_59_HamburgerMenu_NavButtonCheckedForeground;
+                xamlMember.Getter = get_60_HamburgerMenu_NavButtonCheckedForeground;
+                xamlMember.Setter = set_60_HamburgerMenu_NavButtonCheckedForeground;
                 break;
             case "Template10.Controls.HamburgerMenu.NavButtonCheckedBackground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavButtonCheckedBackground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_60_HamburgerMenu_NavButtonCheckedBackground;
-                xamlMember.Setter = set_60_HamburgerMenu_NavButtonCheckedBackground;
+                xamlMember.Getter = get_61_HamburgerMenu_NavButtonCheckedBackground;
+                xamlMember.Setter = set_61_HamburgerMenu_NavButtonCheckedBackground;
                 break;
             case "Template10.Controls.HamburgerMenu.NavButtonCheckedIndicatorBrush":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavButtonCheckedIndicatorBrush", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_61_HamburgerMenu_NavButtonCheckedIndicatorBrush;
-                xamlMember.Setter = set_61_HamburgerMenu_NavButtonCheckedIndicatorBrush;
+                xamlMember.Getter = get_62_HamburgerMenu_NavButtonCheckedIndicatorBrush;
+                xamlMember.Setter = set_62_HamburgerMenu_NavButtonCheckedIndicatorBrush;
                 break;
             case "Template10.Controls.HamburgerMenu.NavButtonPressedForeground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavButtonPressedForeground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_62_HamburgerMenu_NavButtonPressedForeground;
-                xamlMember.Setter = set_62_HamburgerMenu_NavButtonPressedForeground;
+                xamlMember.Getter = get_63_HamburgerMenu_NavButtonPressedForeground;
+                xamlMember.Setter = set_63_HamburgerMenu_NavButtonPressedForeground;
                 break;
             case "Template10.Controls.HamburgerMenu.NavButtonPressedBackground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavButtonPressedBackground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_63_HamburgerMenu_NavButtonPressedBackground;
-                xamlMember.Setter = set_63_HamburgerMenu_NavButtonPressedBackground;
+                xamlMember.Getter = get_64_HamburgerMenu_NavButtonPressedBackground;
+                xamlMember.Setter = set_64_HamburgerMenu_NavButtonPressedBackground;
                 break;
             case "Template10.Controls.HamburgerMenu.NavButtonHoverForeground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavButtonHoverForeground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_64_HamburgerMenu_NavButtonHoverForeground;
-                xamlMember.Setter = set_64_HamburgerMenu_NavButtonHoverForeground;
+                xamlMember.Getter = get_65_HamburgerMenu_NavButtonHoverForeground;
+                xamlMember.Setter = set_65_HamburgerMenu_NavButtonHoverForeground;
                 break;
             case "Template10.Controls.HamburgerMenu.NavButtonHoverBackground":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavButtonHoverBackground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_65_HamburgerMenu_NavButtonHoverBackground;
-                xamlMember.Setter = set_65_HamburgerMenu_NavButtonHoverBackground;
+                xamlMember.Getter = get_66_HamburgerMenu_NavButtonHoverBackground;
+                xamlMember.Setter = set_66_HamburgerMenu_NavButtonHoverBackground;
                 break;
             case "Template10.Controls.HamburgerMenu.HamburgerButtonVisibility":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "HamburgerButtonVisibility", "Windows.UI.Xaml.Visibility");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_66_HamburgerMenu_HamburgerButtonVisibility;
-                xamlMember.Setter = set_66_HamburgerMenu_HamburgerButtonVisibility;
+                xamlMember.Getter = get_67_HamburgerMenu_HamburgerButtonVisibility;
+                xamlMember.Setter = set_67_HamburgerMenu_HamburgerButtonVisibility;
                 break;
             case "Template10.Controls.HamburgerMenu.DisplayMode":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "DisplayMode", "Windows.UI.Xaml.Controls.SplitViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_67_HamburgerMenu_DisplayMode;
-                xamlMember.Setter = set_67_HamburgerMenu_DisplayMode;
+                xamlMember.Getter = get_68_HamburgerMenu_DisplayMode;
+                xamlMember.Setter = set_68_HamburgerMenu_DisplayMode;
                 break;
             case "Template10.Controls.HamburgerMenu.VisualStateNarrowDisplayMode":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "VisualStateNarrowDisplayMode", "Windows.UI.Xaml.Controls.SplitViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_68_HamburgerMenu_VisualStateNarrowDisplayMode;
-                xamlMember.Setter = set_68_HamburgerMenu_VisualStateNarrowDisplayMode;
+                xamlMember.Getter = get_69_HamburgerMenu_VisualStateNarrowDisplayMode;
+                xamlMember.Setter = set_69_HamburgerMenu_VisualStateNarrowDisplayMode;
                 break;
             case "Template10.Controls.HamburgerMenu.VisualStateNormalDisplayMode":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "VisualStateNormalDisplayMode", "Windows.UI.Xaml.Controls.SplitViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_69_HamburgerMenu_VisualStateNormalDisplayMode;
-                xamlMember.Setter = set_69_HamburgerMenu_VisualStateNormalDisplayMode;
+                xamlMember.Getter = get_70_HamburgerMenu_VisualStateNormalDisplayMode;
+                xamlMember.Setter = set_70_HamburgerMenu_VisualStateNormalDisplayMode;
                 break;
             case "Template10.Controls.HamburgerMenu.VisualStateWideDisplayMode":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "VisualStateWideDisplayMode", "Windows.UI.Xaml.Controls.SplitViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_70_HamburgerMenu_VisualStateWideDisplayMode;
-                xamlMember.Setter = set_70_HamburgerMenu_VisualStateWideDisplayMode;
+                xamlMember.Getter = get_71_HamburgerMenu_VisualStateWideDisplayMode;
+                xamlMember.Setter = set_71_HamburgerMenu_VisualStateWideDisplayMode;
                 break;
             case "Template10.Controls.HamburgerMenu.SecondaryButtonOrientation":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "SecondaryButtonOrientation", "Windows.UI.Xaml.Controls.Orientation");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_71_HamburgerMenu_SecondaryButtonOrientation;
-                xamlMember.Setter = set_71_HamburgerMenu_SecondaryButtonOrientation;
+                xamlMember.Getter = get_72_HamburgerMenu_SecondaryButtonOrientation;
+                xamlMember.Setter = set_72_HamburgerMenu_SecondaryButtonOrientation;
                 break;
             case "Template10.Controls.HamburgerMenu.Selected":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "Selected", "Template10.Controls.HamburgerButtonInfo");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_72_HamburgerMenu_Selected;
-                xamlMember.Setter = set_72_HamburgerMenu_Selected;
+                xamlMember.Getter = get_73_HamburgerMenu_Selected;
+                xamlMember.Setter = set_73_HamburgerMenu_Selected;
                 break;
             case "Template10.Controls.HamburgerMenu.NavigationService":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavigationService", "Template10.Services.NavigationService.INavigationService");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_73_HamburgerMenu_NavigationService;
-                xamlMember.Setter = set_73_HamburgerMenu_NavigationService;
+                xamlMember.Getter = get_74_HamburgerMenu_NavigationService;
+                xamlMember.Setter = set_74_HamburgerMenu_NavigationService;
                 break;
             case "Template10.Controls.HamburgerMenu.IsFullScreen":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "IsFullScreen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_74_HamburgerMenu_IsFullScreen;
-                xamlMember.Setter = set_74_HamburgerMenu_IsFullScreen;
+                xamlMember.Getter = get_75_HamburgerMenu_IsFullScreen;
+                xamlMember.Setter = set_75_HamburgerMenu_IsFullScreen;
                 break;
             case "Template10.Controls.HamburgerMenu.PaneWidth":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "PaneWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_75_HamburgerMenu_PaneWidth;
-                xamlMember.Setter = set_75_HamburgerMenu_PaneWidth;
+                xamlMember.Getter = get_76_HamburgerMenu_PaneWidth;
+                xamlMember.Setter = set_76_HamburgerMenu_PaneWidth;
                 break;
             case "Template10.Controls.HamburgerMenu.HamburgerButtonGridWidth":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "HamburgerButtonGridWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_76_HamburgerMenu_HamburgerButtonGridWidth;
-                xamlMember.Setter = set_76_HamburgerMenu_HamburgerButtonGridWidth;
+                xamlMember.Getter = get_77_HamburgerMenu_HamburgerButtonGridWidth;
+                xamlMember.Setter = set_77_HamburgerMenu_HamburgerButtonGridWidth;
                 break;
             case "Template10.Controls.HamburgerMenu.OpenCloseMode":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "OpenCloseMode", "Template10.Controls.HamburgerMenu.OpenCloseModes");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_77_HamburgerMenu_OpenCloseMode;
-                xamlMember.Setter = set_77_HamburgerMenu_OpenCloseMode;
+                xamlMember.Getter = get_78_HamburgerMenu_OpenCloseMode;
+                xamlMember.Setter = set_78_HamburgerMenu_OpenCloseMode;
                 break;
             case "Template10.Controls.HamburgerMenu.HeaderContent":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "HeaderContent", "Windows.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_78_HamburgerMenu_HeaderContent;
-                xamlMember.Setter = set_78_HamburgerMenu_HeaderContent;
+                xamlMember.Getter = get_79_HamburgerMenu_HeaderContent;
+                xamlMember.Setter = set_79_HamburgerMenu_HeaderContent;
                 break;
             case "Template10.Controls.HamburgerMenu.IsOpen":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_79_HamburgerMenu_IsOpen;
-                xamlMember.Setter = set_79_HamburgerMenu_IsOpen;
+                xamlMember.Getter = get_80_HamburgerMenu_IsOpen;
+                xamlMember.Setter = set_80_HamburgerMenu_IsOpen;
                 break;
             case "Template10.Controls.HamburgerMenu.SecondaryButtons":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "SecondaryButtons", "System.Collections.ObjectModel.ObservableCollection`1<Template10.Controls.HamburgerButtonInfo>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_80_HamburgerMenu_SecondaryButtons;
-                xamlMember.Setter = set_80_HamburgerMenu_SecondaryButtons;
+                xamlMember.Getter = get_81_HamburgerMenu_SecondaryButtons;
+                xamlMember.Setter = set_81_HamburgerMenu_SecondaryButtons;
                 break;
             case "Template10.Controls.HamburgerMenu.NavCommand":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "NavCommand", "Template10.Mvvm.DelegateCommand`1<Template10.Controls.HamburgerButtonInfo>");
-                xamlMember.Getter = get_81_HamburgerMenu_NavCommand;
+                xamlMember.Getter = get_82_HamburgerMenu_NavCommand;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Template10.Controls.HamburgerMenu.PropertyChangedHandlers":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.HamburgerMenu");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "PropertyChangedHandlers", "Object");
-                xamlMember.Getter = get_82_HamburgerMenu_PropertyChangedHandlers;
+                xamlMember.Getter = get_83_HamburgerMenu_PropertyChangedHandlers;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Template10.Controls.Resizer.ElementControl":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.Resizer");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "ElementControl", "Windows.UI.Xaml.Controls.Control");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_83_Resizer_ElementControl;
-                xamlMember.Setter = set_83_Resizer_ElementControl;
+                xamlMember.Getter = get_84_Resizer_ElementControl;
+                xamlMember.Setter = set_84_Resizer_ElementControl;
                 break;
             case "Template10.Controls.Resizer.GrabberBrush":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.Resizer");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "GrabberBrush", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_84_Resizer_GrabberBrush;
-                xamlMember.Setter = set_84_Resizer_GrabberBrush;
+                xamlMember.Getter = get_85_Resizer_GrabberBrush;
+                xamlMember.Setter = set_85_Resizer_GrabberBrush;
                 break;
             case "Template10.Controls.Resizer.GrabberVisibility":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.Resizer");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "GrabberVisibility", "Windows.UI.Xaml.Visibility");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_85_Resizer_GrabberVisibility;
-                xamlMember.Setter = set_85_Resizer_GrabberVisibility;
+                xamlMember.Getter = get_86_Resizer_GrabberVisibility;
+                xamlMember.Setter = set_86_Resizer_GrabberVisibility;
                 break;
             case "Template10.Controls.Resizer.GrabberSize":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Template10.Controls.Resizer");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "GrabberSize", "Windows.Foundation.Size");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_86_Resizer_GrabberSize;
-                xamlMember.Setter = set_86_Resizer_GrabberSize;
+                xamlMember.Getter = get_87_Resizer_GrabberSize;
+                xamlMember.Setter = set_87_Resizer_GrabberSize;
                 break;
             case "Event.Views.Busy.BusyText":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.Views.Busy");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "BusyText", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_87_Busy_BusyText;
-                xamlMember.Setter = set_87_Busy_BusyText;
+                xamlMember.Getter = get_88_Busy_BusyText;
+                xamlMember.Setter = set_88_Busy_BusyText;
                 break;
             case "Event.Views.Busy.IsBusy":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.Views.Busy");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "IsBusy", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_88_Busy_IsBusy;
-                xamlMember.Setter = set_88_Busy_IsBusy;
+                xamlMember.Getter = get_89_Busy_IsBusy;
+                xamlMember.Setter = set_89_Busy_IsBusy;
+                break;
+            case "Event.Views.Location.messe":
+                userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.Views.Location");
+                xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "messe", "Event.Models.Here");
+                xamlMember.Getter = get_90_Location_messe;
+                xamlMember.Setter = set_90_Location_messe;
                 break;
             case "Event.Views.MesseInfo.Messe":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.Views.MesseInfo");
                 xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "Messe", "Event.Models.Messe");
-                xamlMember.Getter = get_89_MesseInfo_Messe;
-                xamlMember.Setter = set_89_MesseInfo_Messe;
-                break;
-            case "Event.ViewModels.MainPageViewModel.Header":
-                userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.ViewModels.MainPageViewModel");
-                xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "Header", "String");
-                xamlMember.Getter = get_90_MainPageViewModel_Header;
-                xamlMember.Setter = set_90_MainPageViewModel_Header;
-                break;
-            case "Event.ViewModels.MainPageViewModel.header":
-                userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.ViewModels.MainPageViewModel");
-                xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "header", "String");
-                xamlMember.Getter = get_91_MainPageViewModel_header;
-                xamlMember.Setter = set_91_MainPageViewModel_header;
+                xamlMember.Getter = get_91_MesseInfo_Messe;
+                xamlMember.Setter = set_91_MesseInfo_Messe;
                 break;
             case "Event.ViewModels.MainPageViewModel.Value":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.ViewModels.MainPageViewModel");
@@ -2775,11 +2785,11 @@ namespace Event.Event_XamlTypeInfo
                 xamlMember.Getter = get_92_MainPageViewModel_Value;
                 xamlMember.Setter = set_92_MainPageViewModel_Value;
                 break;
-            case "Event.Views.MainPage.header":
-                userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.Views.MainPage");
-                xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "header", "String");
-                xamlMember.Getter = get_93_MainPage_header;
-                xamlMember.Setter = set_93_MainPage_header;
+            case "Event.ViewModels.MainPageViewModel.myMesse":
+                userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.ViewModels.MainPageViewModel");
+                xamlMember = new global::Event.Event_XamlTypeInfo.XamlMember(this, "myMesse", "Event.Models.Here");
+                xamlMember.Getter = get_93_MainPageViewModel_myMesse;
+                xamlMember.Setter = set_93_MainPageViewModel_myMesse;
                 break;
             case "Event.ViewModels.SettingsPageViewModel.SettingsPartViewModel":
                 userType = (global::Event.Event_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Event.ViewModels.SettingsPageViewModel");

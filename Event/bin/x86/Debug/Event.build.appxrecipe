@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>20cd9e34-2dee-4c32-a86c-054c65d1ccc8</PackageIdentityName>
     <PackageIdentityPublisher>CN=Frioui</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Frioui\Desktop\Event\Event\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Frioui\Desktop\Event\Event\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Frioui\Desktop\Event\Event\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\bin\x86\Debug\Event.exe">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\bin\x86\Debug\Event.exe">
       <PackagePath>entrypoint\Event.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Frioui\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -403,43 +403,67 @@
     <AppxPackagedFile Include="C:\Users\Frioui\.nuget\packages\Template10\1.1.12\lib\uap10.0\Template10Library.dll">
       <PackagePath>Template10Library.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Assets\event.png">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\back2.png">
+      <PackagePath>Assets\back2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\event.png">
       <PackagePath>Assets\event.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\go-back.png">
+      <PackagePath>Assets\go-back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\mappin.png">
+      <PackagePath>Assets\mappin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\pin.png">
+      <PackagePath>Assets\pin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\search.png">
+      <PackagePath>Assets\search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\search1.png">
+      <PackagePath>Assets\search1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Help.htm">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\back3.jpg">
+      <PackagePath>Assets\back3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Assets\mapecon.ico">
+      <PackagePath>Assets\mapecon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Help.htm">
       <PackagePath>Help.htm</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\bin\x86\Debug\Event.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\bin\x86\Debug\Event.xr.xml">
       <PackagePath>Event.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
@@ -469,11 +493,11 @@
     <AppxPackagedFile Include="C:\Users\Frioui\.nuget\packages\Template10\1.1.12\lib\uap10.0\Template10Library\Themes\Resizer.xaml">
       <PackagePath>Template10Library\Themes\Resizer.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Frioui\Documents\Visual Studio 2015\Projects\Event\Event\bin\x86\Debug\Core\Event.exe">
+    <AppxPackagedFile Include="C:\Users\Frioui\Desktop\Event\Event\bin\x86\Debug\Core\Event.exe">
       <PackagePath>Event.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
